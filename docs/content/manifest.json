@@ -1,0 +1,18 @@
+{
+ "title": "Orthopaedic Board Review — High-Yield Study Guide",
+ "subtitle": "Distilled by subspecialty from the Royal College recall bank + Ortho Review textbook",
+ "subspecialties": [
+  { "key": "basic-science",  "title": "Basic Science",        "emoji": "🧬", "file": "basic-science.md",  "status": "todo" },
+  { "key": "anatomy",        "title": "Anatomy & Approaches",  "emoji": "🗺️", "file": "anatomy.md",        "status": "todo" },
+  { "key": "trauma",         "title": "Trauma",                "emoji": "🦴", "file": "trauma.md",         "status": "todo" },
+  { "key": "paediatrics",    "title": "Paediatrics",           "emoji": "🧒", "file": "paediatrics.md",    "status": "todo" },
+  { "key": "arthroplasty",   "title": "Adult Recon / Arthroplasty", "emoji": "🦵", "file": "arthroplasty.md", "status": "todo" },
+  { "key": "sports",         "title": "Sports",                "emoji": "🏃", "file": "sports.md",         "status": "todo" },
+  { "key": "shoulder",       "title": "Shoulder",              "emoji": "💪", "file": "shoulder.md",       "status": "todo" },
+  { "key": "elbow",          "title": "Elbow",                 "emoji": "🦾", "file": "elbow.md",          "status": "todo" },
+  { "key": "hand-and-wrist", "title": "Hand & Wrist",          "emoji": "✋", "file": "hand-and-wrist.md", "status": "todo" },
+  { "key": "foot-and-ankle", "title": "Foot & Ankle",          "emoji": "🦶", "file": "foot-and-ankle.md", "status": "done" },
+  { "key": "spine",          "title": "Spine",                 "emoji": "🔩", "file": "spine.md",          "status": "todo" },
+  { "key": "oncology",       "title": "Oncology",              "emoji": "🔬", "file": "oncology.md",       "status": "todo" }
+ ]
+}

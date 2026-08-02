@@ -1,0 +1,3474 @@
+[
+ {
+  "depth": 2,
+  "title": "Ortho Review: A Resident’s Study Guide to the Orthopaedic Surgery Board Exam",
+  "start": 1,
+  "end": 2,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Copyright",
+  "start": 2,
+  "end": 3,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Preface",
+  "start": 3,
+  "end": 4,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Table of Contents",
+  "start": 4,
+  "end": 19,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Principles of Orthopaedics",
+  "start": 19,
+  "end": 20,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Orthopaedic Implants",
+  "start": 20,
+  "end": 21,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Screws",
+  "start": 20,
+  "end": 21,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Plates",
+  "start": 21,
+  "end": 25,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Intramedullary Nail",
+  "start": 25,
+  "end": 28,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Skeletal Traction",
+  "start": 28,
+  "end": 31,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Orthopaedic Dilemmas",
+  "start": 31,
+  "end": 32,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Nonunion",
+  "start": 31,
+  "end": 34,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Critical Segmental Bone Defect",
+  "start": 34,
+  "end": 36,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Heterotopic Ossification",
+  "start": 36,
+  "end": 39,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Principles of Arthrodesis",
+  "start": 39,
+  "end": 40,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Acute Compartment Syndrome",
+  "start": 40,
+  "end": 45,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Necrotizing Fasciitis",
+  "start": 45,
+  "end": 48,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Tendon Transfers",
+  "start": 48,
+  "end": 52,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Nerve Injury",
+  "start": 52,
+  "end": 54,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Trauma",
+  "start": 54,
+  "end": 55,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "General",
+  "start": 55,
+  "end": 56,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Damage Control Orthopedics",
+  "start": 55,
+  "end": 57,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Fat Embolism Syndrome",
+  "start": 57,
+  "end": 58,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Gun Shot Wounds",
+  "start": 58,
+  "end": 59,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Amputation",
+  "start": 59,
+  "end": 62,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Morel-Lavallée Lesion",
+  "start": 62,
+  "end": 64,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Upper Extremity Trauma",
+  "start": 64,
+  "end": 65,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Clavicle Fracture",
+  "start": 64,
+  "end": 66,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Sternoclavicular Joint Injury",
+  "start": 66,
+  "end": 68,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Distal Clavicle Fractures",
+  "start": 68,
+  "end": 71,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Scapula Fracture",
+  "start": 71,
+  "end": 73,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Scapulothoracic Dissociation",
+  "start": 73,
+  "end": 75,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Proximal Humerus Fracture",
+  "start": 75,
+  "end": 82,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Humeral Shaft Fractures",
+  "start": 82,
+  "end": 85,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Proximal Humerus and Humeral Shaft Nonunions",
+  "start": 85,
+  "end": 87,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Distal Humerus Fracture",
+  "start": 87,
+  "end": 92,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Capitellum Fracture",
+  "start": 92,
+  "end": 93,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Radial Head Fracture",
+  "start": 93,
+  "end": 97,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Olecranon Fracture",
+  "start": 97,
+  "end": 100,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Coronoid Fracture",
+  "start": 100,
+  "end": 102,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Simple Elbow Dislocations",
+  "start": 102,
+  "end": 105,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Complex Elbow Dislocations",
+  "start": 105,
+  "end": 112,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Radius and Ulna Shaft Fractures",
+  "start": 112,
+  "end": 115,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Monteggia Fracture",
+  "start": 115,
+  "end": 116,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Galeazzi Fracture",
+  "start": 116,
+  "end": 118,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Distal Radius Fracture",
+  "start": 118,
+  "end": 124,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Scaphoid Fracture",
+  "start": 124,
+  "end": 127,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Perilunate and Lunate Dislocation",
+  "start": 127,
+  "end": 132,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 1,
+  "title": "LOWER EXTREMITY TRAUMA",
+  "start": 132,
+  "end": 133,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Hip Fracture",
+  "start": 132,
+  "end": 138,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Intertrochanteric Hip Fracture",
+  "start": 138,
+  "end": 142,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Subtrochanteric Femur Fracture",
+  "start": 142,
+  "end": 143,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Femoral Shaft Fractures",
+  "start": 143,
+  "end": 151,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Atypical Femur Fracture",
+  "start": 151,
+  "end": 153,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Distal Femur Fractures",
+  "start": 153,
+  "end": 159,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Patella Fracture",
+  "start": 159,
+  "end": 161,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Floating Knee",
+  "start": 161,
+  "end": 162,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Knee Dislocation",
+  "start": 162,
+  "end": 166,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Tibial Plateau Fracture",
+  "start": 166,
+  "end": 171,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Tibia Shaft Fracture",
+  "start": 171,
+  "end": 176,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Open Tibia Fracture",
+  "start": 176,
+  "end": 181,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Proximal 1/3 Tibia Fractures",
+  "start": 181,
+  "end": 182,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Distal Tibia Shaft Fractures",
+  "start": 182,
+  "end": 184,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Pilon Fractures",
+  "start": 184,
+  "end": 189,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Ankle Fracture",
+  "start": 189,
+  "end": 193,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Lateral Malleolus Fracture",
+  "start": 193,
+  "end": 197,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Medial Malleolus Fracture",
+  "start": 197,
+  "end": 199,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Posterior Malleolus Fracture",
+  "start": 199,
+  "end": 201,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Ankle Syndesmosis Injury",
+  "start": 201,
+  "end": 204,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Talus Fracture",
+  "start": 204,
+  "end": 206,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Talar Neck Fractures",
+  "start": 206,
+  "end": 210,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Talar Head Fractures",
+  "start": 210,
+  "end": 211,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Navicular Fracture",
+  "start": 211,
+  "end": 212,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Subtalar Dislocation",
+  "start": 212,
+  "end": 213,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Calcaneus Fracture",
+  "start": 213,
+  "end": 219,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Lisfranc Injury",
+  "start": 219,
+  "end": 224,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Fifth Metatarsal Fractures",
+  "start": 224,
+  "end": 227,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "First and Central Metatarsal Fractures",
+  "start": 227,
+  "end": 229,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 1,
+  "title": "PELVIS AND ACETABULUM",
+  "start": 229,
+  "end": 230,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Pelvis Fracture",
+  "start": 229,
+  "end": 239,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Acetabulum Fractures",
+  "start": 239,
+  "end": 246,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Posterior Wall Acetabulum Fractures",
+  "start": 246,
+  "end": 253,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Hip Dislocation",
+  "start": 253,
+  "end": 255,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Femoral Head Fracture",
+  "start": 255,
+  "end": 258,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 2,
+  "title": "Spinopelvic Dissociation",
+  "start": 258,
+  "end": 261,
+  "subspecialty": "trauma"
+ },
+ {
+  "depth": 1,
+  "title": "PEDIATRICS",
+  "start": 261,
+  "end": 262,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Developmental Dysplasia of the Hip",
+  "start": 261,
+  "end": 267,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Slipped Capital Femoral Epiphysis",
+  "start": 267,
+  "end": 271,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Legg Calve Perthes Disease",
+  "start": 271,
+  "end": 276,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pelvic Osteotomies",
+  "start": 276,
+  "end": 277,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Multiple Epiphyseal Dysplasia",
+  "start": 277,
+  "end": 279,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Idiopathic Clubfoot",
+  "start": 279,
+  "end": 283,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Congenital Knee Dislocation",
+  "start": 283,
+  "end": 285,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Congenital Dislocation of the Patella",
+  "start": 285,
+  "end": 286,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Developmental Coxa Vara",
+  "start": 285,
+  "end": 287,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Proximal Femoral Focal Deficiency",
+  "start": 287,
+  "end": 288,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Leg Length Discrepancy",
+  "start": 288,
+  "end": 292,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Genu Valgum",
+  "start": 292,
+  "end": 293,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Blounts",
+  "start": 293,
+  "end": 294,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Infantile Blounts",
+  "start": 293,
+  "end": 297,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Adolescent Blount",
+  "start": 297,
+  "end": 298,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Tibia Hemimelia (Deficiency)",
+  "start": 298,
+  "end": 299,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Fibular Hemimelia (Deficiency)",
+  "start": 299,
+  "end": 302,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Anterolateral Tibial Bowing",
+  "start": 302,
+  "end": 303,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Posteromedial Tibial Bowing",
+  "start": 303,
+  "end": 304,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "InToeing",
+  "start": 304,
+  "end": 305,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Cavovarus Foot",
+  "start": 305,
+  "end": 308,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Idiopathic Flatfoot",
+  "start": 308,
+  "end": 310,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Tarsal Coalition",
+  "start": 310,
+  "end": 313,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Congenital Vertical Talus",
+  "start": 313,
+  "end": 317,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Accessory Navicular",
+  "start": 317,
+  "end": 318,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Calcaneovalgus Foot",
+  "start": 317,
+  "end": 318,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Congenital Hallux Varus",
+  "start": 318,
+  "end": 319,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Sprengel Deformity",
+  "start": 318,
+  "end": 321,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Brachial Plexus Birth Palsy",
+  "start": 321,
+  "end": 323,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Madelung Deformity",
+  "start": 323,
+  "end": 325,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Cerebral Palsy",
+  "start": 325,
+  "end": 326,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Gait Patterns",
+  "start": 326,
+  "end": 329,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Spastic Hip Disorders",
+  "start": 329,
+  "end": 334,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Septic Arthritis of the Hip and Knee",
+  "start": 334,
+  "end": 339,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Rickets",
+  "start": 339,
+  "end": 341,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Osteogenesis Imperfecta",
+  "start": 341,
+  "end": 346,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Arthrogryposis",
+  "start": 346,
+  "end": 350,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 1,
+  "title": "PEDIATRIC TRAUMA",
+  "start": 350,
+  "end": 351,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 1,
+  "title": "GENERAL",
+  "start": 351,
+  "end": 352,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Physeal Fractures",
+  "start": 351,
+  "end": 352,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Non-Accidental Trauma (Child Abuse)",
+  "start": 351,
+  "end": 354,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Acute Compartment Syndrome",
+  "start": 354,
+  "end": 357,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 1,
+  "title": "UPPER EXTREMITY TRAUMA",
+  "start": 357,
+  "end": 358,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Proximal Humerus Fractures",
+  "start": 357,
+  "end": 358,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Supracondylar Humerus Fracture",
+  "start": 358,
+  "end": 365,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Transphyseal Distal Humerus Fracture",
+  "start": 365,
+  "end": 366,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Lateral Condyle Fracture",
+  "start": 366,
+  "end": 370,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Medial Epicondyle Fractures",
+  "start": 370,
+  "end": 373,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Radial Neck Fractures",
+  "start": 373,
+  "end": 374,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Monteggia Fractures",
+  "start": 374,
+  "end": 376,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Forearm Fractures",
+  "start": 376,
+  "end": 378,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Physeal Arrest of the Distal Radius",
+  "start": 378,
+  "end": 381,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 1,
+  "title": "LOWER EXTREMITY TRAUMA",
+  "start": 381,
+  "end": 382,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Hip Fractures",
+  "start": 381,
+  "end": 385,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Femoral Shaft Fractures",
+  "start": 385,
+  "end": 387,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Distal Femur Fractures",
+  "start": 387,
+  "end": 388,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Proximal Tibia Fractures",
+  "start": 388,
+  "end": 389,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Tibial Tubercle Avulsion Fractures",
+  "start": 388,
+  "end": 390,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Tibial Eminence Fractures",
+  "start": 390,
+  "end": 392,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Tibia Shaft Fracture",
+  "start": 392,
+  "end": 395,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Ankle Fracture",
+  "start": 395,
+  "end": 397,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 2,
+  "title": "Lower Extremity Avulsion Fractures in Pediatrics",
+  "start": 397,
+  "end": 399,
+  "subspecialty": "paediatrics"
+ },
+ {
+  "depth": 1,
+  "title": "ARTHROPLASTY",
+  "start": 399,
+  "end": 400,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 1,
+  "title": "APPROACHES TO ARTHROPLASTY SCENARIOS",
+  "start": 400,
+  "end": 401,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Periprosthetic Joint Infection",
+  "start": 400,
+  "end": 401,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Revision Total Knee Arthroplasty",
+  "start": 401,
+  "end": 404,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Revision Total Hip Arthroplasty",
+  "start": 404,
+  "end": 407,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 1,
+  "title": "GENERAL",
+  "start": 407,
+  "end": 408,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Prosthetic Joint Infection",
+  "start": 407,
+  "end": 414,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Intra-Articular Knee Injections",
+  "start": 414,
+  "end": 418,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 1,
+  "title": "TOTAL KNEE ARTHROPLASTY",
+  "start": 418,
+  "end": 420,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Surgical Approaches in TKA",
+  "start": 420,
+  "end": 421,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Alignment and Balance Methods in TKA",
+  "start": 421,
+  "end": 422,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Anterior vs. Posterior Referencing",
+  "start": 422,
+  "end": 424,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Implant Design",
+  "start": 424,
+  "end": 425,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Constraint in TKA",
+  "start": 425,
+  "end": 427,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Cemented vs. Uncemented TKA",
+  "start": 427,
+  "end": 428,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "The Valgus Knee",
+  "start": 428,
+  "end": 430,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "The Varus Knee",
+  "start": 430,
+  "end": 431,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Flexion Contracture",
+  "start": 431,
+  "end": 432,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Patellar Maltracking",
+  "start": 432,
+  "end": 434,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Patellar Height",
+  "start": 434,
+  "end": 436,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "High Tibial Osteotomy",
+  "start": 436,
+  "end": 438,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Distal Femoral Osteotomy",
+  "start": 438,
+  "end": 443,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Unicompartmental Knee Arthroplasty",
+  "start": 443,
+  "end": 447,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Isolated Patellofemoral Arthritis",
+  "start": 447,
+  "end": 449,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "TKA Instability",
+  "start": 449,
+  "end": 454,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "TKA Periprosthetic Fracture of the Femur",
+  "start": 454,
+  "end": 455,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "TKA Periprosthetic Fracture of the Tibia",
+  "start": 455,
+  "end": 458,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Arthrofibrosis after TKA",
+  "start": 458,
+  "end": 461,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Osteolysis in TKA",
+  "start": 461,
+  "end": 463,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Bone Loss in Revision TKA",
+  "start": 463,
+  "end": 469,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "TKA in the Presence of Extra-Articular Deformity",
+  "start": 469,
+  "end": 470,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Extensor Mechanism Disruption after TKA",
+  "start": 470,
+  "end": 472,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "TKA After Tibial Plateau Fracture",
+  "start": 472,
+  "end": 474,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Osteonecrosis of the Knee",
+  "start": 474,
+  "end": 476,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Metal Hypersensitivity in TKA",
+  "start": 476,
+  "end": 477,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Management of Acute Wound Complications after TKA",
+  "start": 477,
+  "end": 481,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 1,
+  "title": "TOTAL HIP ARTHROPLASTY",
+  "start": 481,
+  "end": 482,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "General",
+  "start": 481,
+  "end": 484,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "THA Dislocation",
+  "start": 484,
+  "end": 491,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "THA Periprosthetic Femur Fracture",
+  "start": 491,
+  "end": 493,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "THA Femoral Revision",
+  "start": 493,
+  "end": 496,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "THA Acetabular Revision",
+  "start": 496,
+  "end": 500,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Osteonecrosis of the Femoral Head",
+  "start": 500,
+  "end": 504,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Hip Resurfacing",
+  "start": 504,
+  "end": 506,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Developmental Dysplasia of the Hip in the Adult",
+  "start": 506,
+  "end": 512,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Acetabular Protrusio",
+  "start": 512,
+  "end": 513,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Isolated Head and Liner Exchange in Revision THA",
+  "start": 513,
+  "end": 515,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Pelvic Discontinuity",
+  "start": 515,
+  "end": 517,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Corrosion of the Head Neck Junction after THA",
+  "start": 517,
+  "end": 518,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Metal on Metal THA",
+  "start": 518,
+  "end": 521,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 2,
+  "title": "Ceramic on Ceramic Catastrophic Failure",
+  "start": 521,
+  "end": 522,
+  "subspecialty": "arthroplasty"
+ },
+ {
+  "depth": 1,
+  "title": "SPORTS",
+  "start": 522,
+  "end": 523,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 1,
+  "title": "HIP",
+  "start": 523,
+  "end": 524,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Hip Arthroscopy",
+  "start": 523,
+  "end": 525,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Hip Labral Tear",
+  "start": 525,
+  "end": 527,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Femoroacetabular Impingement (FAI)",
+  "start": 527,
+  "end": 533,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Snapping Hip (Coxa Sultans)",
+  "start": 533,
+  "end": 534,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Proximal Hamstring Injury",
+  "start": 534,
+  "end": 536,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 1,
+  "title": "KNEE",
+  "start": 536,
+  "end": 537,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Patellar Instability",
+  "start": 536,
+  "end": 546,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Tibial Tubercle Osteotomy",
+  "start": 546,
+  "end": 548,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Anterior Cruciate Ligament",
+  "start": 548,
+  "end": 549,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "General",
+  "start": 548,
+  "end": 556,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "ACL Grafts",
+  "start": 556,
+  "end": 559,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "ACL Complications",
+  "start": 559,
+  "end": 560,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Revision ACL Reconstruction",
+  "start": 559,
+  "end": 562,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Tunnel Widening",
+  "start": 562,
+  "end": 564,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Septic Arthritis Following ACL Reconstruction",
+  "start": 564,
+  "end": 565,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Posttraumatic Arthritis",
+  "start": 565,
+  "end": 566,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric ACL",
+  "start": 566,
+  "end": 569,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Anterolateral Ligament of the Knee",
+  "start": 569,
+  "end": 572,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Posterior Cruciate Ligament",
+  "start": 572,
+  "end": 576,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Medial Collateral Ligament",
+  "start": 576,
+  "end": 581,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Lateral Collateral Ligament",
+  "start": 581,
+  "end": 583,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Posterolateral Corner of the Knee",
+  "start": 583,
+  "end": 587,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Posteromedial Corner of the Knee",
+  "start": 587,
+  "end": 591,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Quadriceps Tendon Tear",
+  "start": 591,
+  "end": 592,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Knee Meniscus",
+  "start": 592,
+  "end": 596,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Meniscal Root Tear",
+  "start": 596,
+  "end": 599,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Discoid Lateral Meniscus",
+  "start": 599,
+  "end": 601,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Osteochondritis Dissecans of the Knee",
+  "start": 601,
+  "end": 605,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Articular Cartilage Repair and Restoration",
+  "start": 605,
+  "end": 609,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Meniscal Allograft Transplantation",
+  "start": 609,
+  "end": 611,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Knee Cysts",
+  "start": 611,
+  "end": 612,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Knee Arthroscopy Portals",
+  "start": 612,
+  "end": 614,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 1,
+  "title": "SHOULDER",
+  "start": 614,
+  "end": 616,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Rotator Cuff Tears",
+  "start": 616,
+  "end": 622,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Calcific Tendinitis of the Rotator Cuff",
+  "start": 622,
+  "end": 623,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "SLAP Tear",
+  "start": 623,
+  "end": 626,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Shoulder Impingement Syndromes",
+  "start": 626,
+  "end": 627,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Subacromial Impingement Syndrome",
+  "start": 626,
+  "end": 628,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Subcoracoid (Coracoid) Impingement",
+  "start": 628,
+  "end": 629,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Internal Impingement",
+  "start": 628,
+  "end": 629,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "The Thrower’s Shoulder",
+  "start": 629,
+  "end": 633,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Shoulder Instability",
+  "start": 633,
+  "end": 634,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Acute Anterior Shoulder Dislocation",
+  "start": 633,
+  "end": 637,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Bone Loss",
+  "start": 637,
+  "end": 638,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Hill Sachs Lesion",
+  "start": 637,
+  "end": 640,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Glenoid Bone Loss",
+  "start": 640,
+  "end": 644,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Posterior Shoulder Dislocation",
+  "start": 644,
+  "end": 647,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Posterior Glenohumeral Joint Instability",
+  "start": 647,
+  "end": 649,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Multidirectional Shoulder Instability",
+  "start": 649,
+  "end": 650,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Acromioclavicular Joint Injury",
+  "start": 650,
+  "end": 655,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 1,
+  "title": "ELBOW",
+  "start": 655,
+  "end": 656,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Posterolateral Rotatory Instability of the Elbow",
+  "start": 655,
+  "end": 658,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Ulnar Collateral Ligament Injuries",
+  "start": 658,
+  "end": 662,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Lateral Epicondylitis (Tennis Elbow)",
+  "start": 662,
+  "end": 663,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 2,
+  "title": "Valgus Extension Overload",
+  "start": 663,
+  "end": 666,
+  "subspecialty": "sports"
+ },
+ {
+  "depth": 1,
+  "title": "SHOULDER AND ELBOW",
+  "start": 666,
+  "end": 667,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 1,
+  "title": "SHOULDER",
+  "start": 667,
+  "end": 668,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "General",
+  "start": 667,
+  "end": 668,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Glenohumeral Joint Osteoarthritis",
+  "start": 667,
+  "end": 668,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Total Shoulder Arthroplasty",
+  "start": 668,
+  "end": 671,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Rotator Cuff Tear Arthropathy",
+  "start": 671,
+  "end": 672,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Reverse Total Shoulder Arthroplasty",
+  "start": 672,
+  "end": 675,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "rTSA Instability",
+  "start": 675,
+  "end": 677,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Prosthetic Joint Infections of the Shoulder",
+  "start": 677,
+  "end": 678,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Periprosthetic Humeral Fracture",
+  "start": 678,
+  "end": 679,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Glenohumeral Arthritis in the Young Patient",
+  "start": 679,
+  "end": 681,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Glenoid Dysplasia",
+  "start": 681,
+  "end": 682,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Chronic Shoulder Dislocation",
+  "start": 682,
+  "end": 684,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Adhesive Capsulitis Shoulder",
+  "start": 684,
+  "end": 685,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 2,
+  "title": "Teres Minor Disorders",
+  "start": 685,
+  "end": 688,
+  "subspecialty": "shoulder"
+ },
+ {
+  "depth": 1,
+  "title": "ELBOW",
+  "start": 688,
+  "end": 689,
+  "subspecialty": "elbow"
+ },
+ {
+  "depth": 2,
+  "title": "General",
+  "start": 688,
+  "end": 689,
+  "subspecialty": "elbow"
+ },
+ {
+  "depth": 2,
+  "title": "Distal Biceps Tendon Tear",
+  "start": 688,
+  "end": 692,
+  "subspecialty": "elbow"
+ },
+ {
+  "depth": 2,
+  "title": "Stiff Elbow",
+  "start": 692,
+  "end": 699,
+  "subspecialty": "elbow"
+ },
+ {
+  "depth": 2,
+  "title": "Chronic Elbow Dislocation",
+  "start": 699,
+  "end": 701,
+  "subspecialty": "elbow"
+ },
+ {
+  "depth": 2,
+  "title": "Post-Traumatic Arthritis of the Elbow in the Young Patient",
+  "start": 701,
+  "end": 702,
+  "subspecialty": "elbow"
+ },
+ {
+  "depth": 2,
+  "title": "Total Elbow Arthroplasty",
+  "start": 702,
+  "end": 706,
+  "subspecialty": "elbow"
+ },
+ {
+  "depth": 2,
+  "title": "Elbow Arthroscopy",
+  "start": 706,
+  "end": 709,
+  "subspecialty": "elbow"
+ },
+ {
+  "depth": 1,
+  "title": "UPPER EXTREMITY NERVE PATHOLOGY",
+  "start": 709,
+  "end": 710,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Ulnar Nerve",
+  "start": 709,
+  "end": 711,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Median Nerve",
+  "start": 711,
+  "end": 716,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Radial Nerve",
+  "start": 716,
+  "end": 718,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 1,
+  "title": "WRIST AND HAND",
+  "start": 718,
+  "end": 719,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 1,
+  "title": "WRIST",
+  "start": 719,
+  "end": 720,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "General",
+  "start": 719,
+  "end": 721,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Scapholunate Ligament Injury",
+  "start": 721,
+  "end": 724,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "SLAC and SNAC Wrist",
+  "start": 724,
+  "end": 728,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Wrist Arthritis",
+  "start": 728,
+  "end": 729,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Total Wrist Arthrodesis",
+  "start": 729,
+  "end": 731,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Distal Radius Malunion",
+  "start": 731,
+  "end": 734,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Scaphoid Nonunion",
+  "start": 734,
+  "end": 737,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Kienbock’s Disease",
+  "start": 737,
+  "end": 738,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Distal Radioulnar Joint Arthritis",
+  "start": 738,
+  "end": 741,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "DRUJ Instability",
+  "start": 741,
+  "end": 746,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "TFCC Tear",
+  "start": 746,
+  "end": 749,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Ulnocarpal Impaction",
+  "start": 749,
+  "end": 751,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Wrist Arthroscopy",
+  "start": 751,
+  "end": 753,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 1,
+  "title": "HAND",
+  "start": 753,
+  "end": 754,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Collateral Ligament Injuries of the Thumb Metacarpophalangeal Joint",
+  "start": 753,
+  "end": 754,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Thumb Basal Joint Arthritis",
+  "start": 754,
+  "end": 758,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Base of the Thumb Fractures and Dislocations",
+  "start": 758,
+  "end": 759,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Trapeziometacarpal Dislocation",
+  "start": 758,
+  "end": 759,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Bennett Fracture Dislocation",
+  "start": 758,
+  "end": 759,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Rolando Fracture",
+  "start": 759,
+  "end": 760,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Comminuted Metacarpal Base Fracture",
+  "start": 760,
+  "end": 761,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Extra-articular Fractures of the 1st Metacarpal Base",
+  "start": 760,
+  "end": 761,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Metacarpal Fractures (2nd to 5th)",
+  "start": 761,
+  "end": 763,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Proximal Interphalangeal Joint Fracture Dislocation",
+  "start": 763,
+  "end": 764,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "PIP Joint Dorsal Fracture Dislocation",
+  "start": 764,
+  "end": 765,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "PIP Joint Volar Fracture Dislocation",
+  "start": 765,
+  "end": 766,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Middle and Proximal Phalanx Fractures",
+  "start": 766,
+  "end": 767,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Mallet Finger",
+  "start": 766,
+  "end": 768,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Flexor Tendon Injuries",
+  "start": 768,
+  "end": 772,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Stenosing Tenosynovitis (Trigger Finger)",
+  "start": 772,
+  "end": 773,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Flexor Tendon Sheath Infection",
+  "start": 773,
+  "end": 774,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Dupuytren Disease",
+  "start": 774,
+  "end": 776,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Rheumatoid Hand and Wrist",
+  "start": 776,
+  "end": 778,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Posttraumatic Boutonnière and Swan Neck Deformities",
+  "start": 778,
+  "end": 783,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Reimplantation of Upper Extremity Amputations",
+  "start": 783,
+  "end": 785,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 2,
+  "title": "Polydactyly of the Hand",
+  "start": 785,
+  "end": 788,
+  "subspecialty": "hand-and-wrist"
+ },
+ {
+  "depth": 1,
+  "title": "FOOT AND ANKLE",
+  "start": 788,
+  "end": 789,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "General",
+  "start": 788,
+  "end": 789,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Hallux Valgus",
+  "start": 789,
+  "end": 794,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Hallux Rigidus",
+  "start": 794,
+  "end": 798,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Bunionette",
+  "start": 798,
+  "end": 799,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Lesser Toe Deformities",
+  "start": 798,
+  "end": 800,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Posterior Tibial Tendon Dysfunction",
+  "start": 800,
+  "end": 806,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Ankle Arthritis",
+  "start": 806,
+  "end": 814,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Subtalar Arthritis",
+  "start": 814,
+  "end": 815,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Triple Arthrodesis",
+  "start": 815,
+  "end": 816,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Charcot-Marie-Tooth Disease",
+  "start": 815,
+  "end": 816,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Diabetic Foot",
+  "start": 816,
+  "end": 817,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Charcot Arthropathy of the Foot and Ankle",
+  "start": 817,
+  "end": 820,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Rheumatoid Foot",
+  "start": 820,
+  "end": 821,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Plantar Fasciitis",
+  "start": 821,
+  "end": 823,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Turf Toe",
+  "start": 823,
+  "end": 825,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Baxter’s Nerve Entrapment",
+  "start": 825,
+  "end": 826,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Morton’s Interdigital Neuroma",
+  "start": 826,
+  "end": 827,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Peroneal Tendon Injuries",
+  "start": 827,
+  "end": 830,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Acute Achilles Tendon Tear",
+  "start": 830,
+  "end": 832,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Chronic Achilles Tendon Tear",
+  "start": 832,
+  "end": 834,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Ankle Instability",
+  "start": 834,
+  "end": 837,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Osteochondral Lesions of the Talus",
+  "start": 837,
+  "end": 839,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Ankle Arthroscopy",
+  "start": 839,
+  "end": 840,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 2,
+  "title": "Common Peroneal Nerve Palsy",
+  "start": 840,
+  "end": 843,
+  "subspecialty": "foot-and-ankle"
+ },
+ {
+  "depth": 1,
+  "title": "SPINE",
+  "start": 843,
+  "end": 844,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 1,
+  "title": "SPINE TRAUMA",
+  "start": 844,
+  "end": 845,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Occipital Condyle Fracture",
+  "start": 844,
+  "end": 845,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Craniocervical (Occipitocervical) Dissociation",
+  "start": 845,
+  "end": 847,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Atlas (C1) Fractures",
+  "start": 847,
+  "end": 848,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Atlantoaxial Instability",
+  "start": 848,
+  "end": 849,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Odontoid Fracture",
+  "start": 849,
+  "end": 851,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Traumatic Spondylolisthesis of the Axis (Hangman’s fracture)",
+  "start": 851,
+  "end": 852,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Subaxial Cervical Spine Trauma",
+  "start": 852,
+  "end": 854,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Cervical Facet Dislocation",
+  "start": 854,
+  "end": 857,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Pediatric Cervical Spine Trauma",
+  "start": 857,
+  "end": 859,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Thoracolumbar Spine Trauma",
+  "start": 859,
+  "end": 862,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Spinal Cord Injury",
+  "start": 862,
+  "end": 864,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Incomplete Cord Syndromes",
+  "start": 864,
+  "end": 867,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Cauda Equina Syndrome",
+  "start": 867,
+  "end": 869,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 1,
+  "title": "SPINAL CONDITIONS",
+  "start": 869,
+  "end": 870,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Cervical Radiculopathy",
+  "start": 869,
+  "end": 871,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Cervical Spondylotic Myelopathy",
+  "start": 871,
+  "end": 875,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Ossification of the Posterior Longitudinal Ligament (OPLL)",
+  "start": 875,
+  "end": 877,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Lumbar Disc Herniations",
+  "start": 877,
+  "end": 879,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Lumbar Spinal Stenosis",
+  "start": 879,
+  "end": 881,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Spondylolisthesis",
+  "start": 881,
+  "end": 882,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Degenerative Spondylolisthesis",
+  "start": 882,
+  "end": 883,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Isthmic Spondylolisthesis",
+  "start": 883,
+  "end": 886,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Infections of the Spine",
+  "start": 886,
+  "end": 887,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Bacterial Spine Infections",
+  "start": 886,
+  "end": 888,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Granulomatous Infection of the Spine",
+  "start": 888,
+  "end": 891,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Rheumatoid Spine",
+  "start": 891,
+  "end": 895,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Diffuse Idiopathic Skeletal Hyperostosis",
+  "start": 895,
+  "end": 896,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Ankylosing Spondylitis Spinal Fractures",
+  "start": 896,
+  "end": 899,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Scheuermann Kyphosis",
+  "start": 899,
+  "end": 900,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Osteoporosis of the Spine",
+  "start": 900,
+  "end": 902,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Dural Tears",
+  "start": 902,
+  "end": 904,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Adult Spinal Deformity",
+  "start": 904,
+  "end": 907,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Adolescent Idiopathic Scoliosis",
+  "start": 907,
+  "end": 913,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Early Onset Scoliosis",
+  "start": 913,
+  "end": 914,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Congenital Scoliosis",
+  "start": 913,
+  "end": 915,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Neuromuscular Scoliosis",
+  "start": 915,
+  "end": 916,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Syndromic Scoliosis",
+  "start": 916,
+  "end": 917,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Early Onset Idiopathic Scoliosis",
+  "start": 916,
+  "end": 917,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Atlantoaxial Rotatory Subluxation in Children",
+  "start": 917,
+  "end": 920,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 1,
+  "title": "SPINE ONCOLOGY",
+  "start": 920,
+  "end": 921,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Metastatic Spinal Disease",
+  "start": 920,
+  "end": 923,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Benign Tumors of the Spine",
+  "start": 923,
+  "end": 924,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Osteoid Osteoma",
+  "start": 923,
+  "end": 924,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Osteoblastoma",
+  "start": 923,
+  "end": 924,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Aneurysmal Bone Cyst",
+  "start": 923,
+  "end": 924,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Osteochondroma",
+  "start": 924,
+  "end": 925,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Neurofibroma",
+  "start": 924,
+  "end": 925,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Giant Cell Tumor",
+  "start": 925,
+  "end": 926,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Eosinophilic Granuloma",
+  "start": 925,
+  "end": 926,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Hemangioma",
+  "start": 925,
+  "end": 927,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 1,
+  "title": "SURGICAL TECHNIQUES",
+  "start": 927,
+  "end": 928,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Anterior Cervical Approach (Smith-Robinson)",
+  "start": 927,
+  "end": 928,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Occipitocervical Fusion",
+  "start": 928,
+  "end": 929,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "C1 Lateral Mass Screw",
+  "start": 929,
+  "end": 930,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "C2 Pars/Pedicle Screw",
+  "start": 929,
+  "end": 930,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Subaxial Lateral Mass Screw",
+  "start": 930,
+  "end": 931,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Odontoid Screw",
+  "start": 930,
+  "end": 931,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Anterior Cervical Decompression and Fusion",
+  "start": 931,
+  "end": 932,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 2,
+  "title": "Anterior Cervical Corpectomy and Fusion",
+  "start": 932,
+  "end": 933,
+  "subspecialty": "spine"
+ },
+ {
+  "depth": 1,
+  "title": "ONCOLOGY",
+  "start": 933,
+  "end": 934,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Oncology Scenarios",
+  "start": 933,
+  "end": 934,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Approach to Benign Aggressive Lesion",
+  "start": 933,
+  "end": 934,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Approach to Osteosarcoma",
+  "start": 933,
+  "end": 934,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Approach to Ewing’s Sarcoma",
+  "start": 934,
+  "end": 935,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Approach to Soft Tissue Sarcoma",
+  "start": 935,
+  "end": 936,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Approach To Isolated Destructive Bone Lesion in an Adult",
+  "start": 936,
+  "end": 937,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "General",
+  "start": 937,
+  "end": 940,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Differential Diagnosis",
+  "start": 940,
+  "end": 942,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Destructive Lesion in an Adult",
+  "start": 942,
+  "end": 946,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Primary Bone Sarcoma Surgical Considerations",
+  "start": 946,
+  "end": 949,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "BENIGN BONE TUMORS",
+  "start": 949,
+  "end": 950,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Osteoid Osteoma",
+  "start": 949,
+  "end": 950,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Osteoblastoma",
+  "start": 950,
+  "end": 951,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Bone Island",
+  "start": 950,
+  "end": 951,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "BENIGN CARTILAGE TUMORS",
+  "start": 951,
+  "end": 952,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Enchondroma",
+  "start": 951,
+  "end": 952,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Periosteal Chondroma",
+  "start": 952,
+  "end": 953,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Osteochondroma",
+  "start": 952,
+  "end": 953,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Chondroblastoma",
+  "start": 953,
+  "end": 954,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Chondromyxoid Fibroma",
+  "start": 954,
+  "end": 955,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "BENIGN FIBROUS LESIONS",
+  "start": 955,
+  "end": 956,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Nonossifying Fibroma (NOF)",
+  "start": 955,
+  "end": 956,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Fibrous Dysplasia",
+  "start": 955,
+  "end": 956,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Osteofibrous Dysplasia",
+  "start": 956,
+  "end": 957,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Desmoplastic Fibroma",
+  "start": 957,
+  "end": 959,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "BENIGN CYSTIC LESIONS",
+  "start": 959,
+  "end": 960,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Unicameral Bone Cyst (UBC)",
+  "start": 959,
+  "end": 960,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Aneurysmal Bone Cyst (ABC)",
+  "start": 959,
+  "end": 961,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "MISCELLANEOUS BENIGN",
+  "start": 961,
+  "end": 962,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Giant Cell Tumor",
+  "start": 961,
+  "end": 962,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Eosinophilic Granuloma",
+  "start": 962,
+  "end": 964,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "MALIGNANT BONE TUMORS",
+  "start": 964,
+  "end": 965,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Osteosarcoma",
+  "start": 964,
+  "end": 965,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Intramedullary Osteosarcoma",
+  "start": 964,
+  "end": 966,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Parosteal Osteosarcoma",
+  "start": 966,
+  "end": 967,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Periosteal Osteosarcoma",
+  "start": 966,
+  "end": 967,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Telangiectatic Osteosarcoma",
+  "start": 967,
+  "end": 968,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Secondary Osteosarcoma",
+  "start": 967,
+  "end": 968,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Undifferentiated Pleomorphic Sarcoma (Malignant Fibrous Histiocytoma)",
+  "start": 967,
+  "end": 968,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Chondrosarcoma",
+  "start": 968,
+  "end": 969,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Ewing Sarcoma",
+  "start": 969,
+  "end": 970,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Chordoma",
+  "start": 970,
+  "end": 971,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Adamantinoma",
+  "start": 971,
+  "end": 973,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "SYSTEMIC DISEASE",
+  "start": 973,
+  "end": 974,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Multiple Myeloma",
+  "start": 973,
+  "end": 974,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Solitary Plasmacytoma",
+  "start": 973,
+  "end": 974,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Lymphoma",
+  "start": 974,
+  "end": 975,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "BENIGN SOFT-TISSUE TUMORS AND REACTIVE LESIONS",
+  "start": 975,
+  "end": 976,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Lipoma",
+  "start": 975,
+  "end": 976,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Atypical Lipoma",
+  "start": 975,
+  "end": 976,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Intramuscular Hemangioma",
+  "start": 976,
+  "end": 977,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Schwannoma/Neurilemoma",
+  "start": 976,
+  "end": 977,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Nodular Fasciitis",
+  "start": 977,
+  "end": 978,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Intramuscular Myxoma",
+  "start": 977,
+  "end": 978,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Desmoid Tumor",
+  "start": 978,
+  "end": 979,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Synovial Chondromatosis",
+  "start": 979,
+  "end": 980,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Pigmented Villonodular Synovitis (PVNS)",
+  "start": 979,
+  "end": 980,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Myositis Ossificans",
+  "start": 980,
+  "end": 982,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "MALIGNANT SOFT-TISSUE TUMORS",
+  "start": 982,
+  "end": 983,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Soft Tissue Sarcomas",
+  "start": 982,
+  "end": 984,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Undifferentiated Pleomorphic Sarcoma",
+  "start": 984,
+  "end": 985,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Liposarcoma",
+  "start": 984,
+  "end": 985,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Dermatofibrosarcoma Protuberans",
+  "start": 985,
+  "end": 986,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Synovial Sarcoma",
+  "start": 985,
+  "end": 986,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Epithelioid Sarcoma",
+  "start": 985,
+  "end": 986,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Clear Cell Sarcoma",
+  "start": 986,
+  "end": 987,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Rhabdomyosarcoma",
+  "start": 986,
+  "end": 987,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Malignant Peripheral Nerve Sheath Tumor",
+  "start": 986,
+  "end": 987,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "MISCELLANEOUS LESIONS",
+  "start": 987,
+  "end": 988,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 2,
+  "title": "Melorheostosis",
+  "start": 987,
+  "end": 988,
+  "subspecialty": "oncology"
+ },
+ {
+  "depth": 1,
+  "title": "MEDICAL CONDITIONS",
+  "start": 988,
+  "end": 989,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Rheumatoid Arthritis",
+  "start": 988,
+  "end": 990,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Ankylosing Spondylitis",
+  "start": 990,
+  "end": 993,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Paget’s Disease",
+  "start": 993,
+  "end": 994,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Osteoporosis",
+  "start": 993,
+  "end": 996,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Osteopetrosis",
+  "start": 996,
+  "end": 998,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Down Syndrome",
+  "start": 998,
+  "end": 1001,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 1,
+  "title": "ETHICS AND PRINCIPLES OF PRACTICE",
+  "start": 1001,
+  "end": 1002,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Ethical Principles",
+  "start": 1001,
+  "end": 1002,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Patient Confidentiality",
+  "start": 1001,
+  "end": 1002,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Informed Consent",
+  "start": 1002,
+  "end": 1003,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Capacity",
+  "start": 1002,
+  "end": 1003,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Medical Errors",
+  "start": 1002,
+  "end": 1003,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Disclosure",
+  "start": 1003,
+  "end": 1004,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Breaking Bad News",
+  "start": 1003,
+  "end": 1004,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 2,
+  "title": "Intimate Partner Violence",
+  "start": 1004,
+  "end": 1006,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 1,
+  "title": "RESEARCH SUMMARIES",
+  "start": 1006,
+  "end": 1016,
+  "subspecialty": "basic-science"
+ },
+ {
+  "depth": 1,
+  "title": "GLOSSARY OF ABBREVIATIONS",
+  "start": 1016,
+  "end": 1028,
+  "subspecialty": "basic-science"
+ }
+]

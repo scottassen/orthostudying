@@ -1,0 +1,123 @@
+{
+ "_note": "Descriptions authored by reading each extracted image with a vision model. 'type' distinguishes true clinical films from screenshots of reference text (Orthobullets/journal) that residents pasted as evidence. 'tested_topic' is what the associated question was probing, so the topic is recoverable without the question stem.",
+ "image1.png": {
+  "type": "clinical-xray",
+  "modality": "AP/lateral radiograph, humerus",
+  "description": "Humeral shaft fracture fixed with dual (orthogonal/parallel) plates; annotation points to gapping at the far cortex / fracture site.",
+  "tested_topic": "Humeral shaft fracture dual-plate fixation – technical error causing fracture-site gapping (compression/reduction technique)",
+  "subspecialty": "trauma",
+  "anchor": "Fall 2025 (Non Consensus) row 76"
+ },
+ "image2.jpg": {
+  "type": "clinical-mri",
+  "modality": "Sagittal lumbar spine MRI (T1 and post-contrast/T2), two panels",
+  "description": "L4 vertebral body lesion with endplate/marrow signal change (arrowhead + arrow); paraspinal/epidural involvement. In context of sepsis + LBP + UTI, pattern of pyogenic vertebral osteomyelitis/discitis.",
+  "tested_topic": "Vertebral osteomyelitis / discitis – MRI diagnosis vs metastasis in the septic patient",
+  "subspecialty": "spine",
+  "anchor": "2024-Fall (Consensus) row 137"
+ },
+ "image3.png": {
+  "type": "evidence-screenshot",
+  "modality": "Journal article excerpt (OTA Highlight Paper, JOT)",
+  "description": "Screenshot of Ihejirika-Lomedico et al. RCT on intraoperative local pain-cocktail (HiFI) injections in hip fracture surgery – results paragraph highlighting reduced pain/narcotic use and fewer complications.",
+  "tested_topic": "Peri-articular local anaesthetic (pain cocktail) injection in hip fracture – evidence for reduced pain/opioids",
+  "subspecialty": "trauma",
+  "anchor": "2024-Fall (Consensus) row 167"
+ },
+ "image4.png": {
+  "type": "evidence-screenshot",
+  "modality": "Orthobullets question screenshot",
+  "description": "Lumbar disc herniation location-classification question with MRI + dermatome figure; teaching point that L4-L5 paracentral herniation compresses the traversing L5 root.",
+  "tested_topic": "Lumbar disc herniation – paracentral vs foraminal and which nerve root is affected",
+  "subspecialty": "spine",
+  "anchor": "Fall 2025 (Non Consensus) row 9"
+ },
+ "image5.png": {
+  "type": "evidence-screenshot",
+  "modality": "Orthobullets outline screenshot",
+  "description": "Bulleted reference: posterolateral/paracentral herniation (90-95%, affects traversing root; L4/5 → L5) vs foraminal/far-lateral (5-10%, affects exiting root; L4/5 → L4).",
+  "tested_topic": "Lumbar disc herniation – paracentral vs far-lateral nerve-root involvement",
+  "subspecialty": "spine",
+  "anchor": "Fall 2025 (Non Consensus) row 9"
+ },
+ "image6.png": {
+  "type": "evidence-screenshot",
+  "modality": "Orthobullets outline screenshot",
+  "description": "Rheumatoid wrist 'radiocarpal destruction' pathoanatomy bullets: synovitis → ulnar/volar carpal translocation, scaphoid flexion, radioscaphoid arthrosis, ulnar finger drift (zigzag deformity).",
+  "tested_topic": "Rheumatoid wrist – pattern of radiocarpal destruction / carpal translocation",
+  "subspecialty": "hand-and-wrist",
+  "anchor": "Fall 2025 (Non Consensus) row 101"
+ },
+ "image7.jpg": {
+  "type": "clinical-xray",
+  "modality": "AP/lateral radiograph, knee",
+  "description": "Knee radiographs with arrows (A-D) labelling structures/findings (tibial spines/eminence and joint-line features).",
+  "tested_topic": "Knee radiographic anatomy / compartment findings",
+  "subspecialty": "sports",
+  "anchor": "2021 row 55"
+ },
+ "image8.png": {
+  "type": "evidence-screenshot",
+  "modality": "Orthobullets outline screenshot",
+  "description": "Distal radius biomechanics bullets: loss of volar tilt causes DRUJ incongruity; decreased volar tilt limits flexion/supination, increased volar tilt limits extension/pronation.",
+  "tested_topic": "Distal radius malunion – effect of volar tilt on forearm rotation / DRUJ",
+  "subspecialty": "hand-and-wrist",
+  "anchor": "Fall 2025 (Non Consensus) row 7"
+ },
+ "image9.png": {
+  "type": "blank",
+  "modality": "n/a",
+  "description": "Blank/white placeholder image (769 bytes); no content.",
+  "tested_topic": null,
+  "subspecialty": null,
+  "anchor": "2021 row 149"
+ },
+ "image10.png": {
+  "type": "clinical-ct",
+  "modality": "3D CT reconstruction, pelvis (3 views)",
+  "description": "3D CT of the pelvis/acetabulum showing an acetabular fracture pattern (columns/walls) for classification.",
+  "tested_topic": "Acetabular fracture – Judet-Letournel classification from 3D CT",
+  "subspecialty": "trauma",
+  "anchor": "Fall 2025 (Non Consensus) row 117"
+ },
+ "image11.png": {
+  "type": "clinical-xray",
+  "modality": "AP radiograph, bilateral knees (paediatric)",
+  "description": "Bilateral paediatric knees with widened/irregular physes and metaphyseal changes (cupping/fraying pattern) – consistent with rickets/metabolic physeal disease.",
+  "tested_topic": "Paediatric metaphyseal/physeal disease (rickets) – radiographic recognition",
+  "subspecialty": "paediatrics",
+  "anchor": "2021 row 150"
+ },
+ "image13.png": {
+  "type": "clinical-xray",
+  "modality": "Babygram + AP/lateral tibia radiographs (infant)",
+  "description": "Infant skeletal survey/babygram plus tibia views; corner/bucket-handle metaphyseal pattern in a non-ambulatory child – classic for non-accidental injury.",
+  "tested_topic": "Non-accidental trauma (child abuse) – which radiograph is most concerning (classic metaphyseal lesion)",
+  "subspecialty": "paediatrics",
+  "anchor": "Fall 2025 (Non Consensus) row 74"
+ },
+ "image14.png": {
+  "type": "clinical-xray",
+  "modality": "PA/lateral radiograph, wrist (paediatric)",
+  "description": "Paediatric distal forearm with distal radius (± ulna) fracture; open physes visible.",
+  "tested_topic": "Paediatric distal radius fracture (physeal/metaphyseal)",
+  "subspecialty": "paediatrics",
+  "anchor": "Fall 2025 (Non Consensus) row 60"
+ },
+ "image15.png": {
+  "type": "reference-figure",
+  "modality": "Illustration + bone model (journal figure)",
+  "description": "Figure showing the AP axis of the ankle joint vs proximal tibia relative to the tibial mechanical axis; ankle is externally rotated vs proximal tibia – alignment/guide-placement concept.",
+  "tested_topic": "Tibial rotational/mechanical-axis alignment (TKA / deformity planning)",
+  "subspecialty": "arthroplasty",
+  "anchor": "2010 row 24"
+ },
+ "image12.png": {
+  "type": "evidence-screenshot",
+  "modality": "Orthobullets outline screenshot",
+  "description": "Damage-control orthopaedics indications: ISS>40 (no thoracic trauma), ISS>20 with thoracic trauma, GCS≤8, severe pelvic/abdominal trauma with shock, bilateral femur fractures, pulmonary contusion, hypothermia <35°C, head injury AIS≥3, IL-6 >500pg/dL.",
+  "tested_topic": "Damage-control orthopaedics – parameters/indications",
+  "subspecialty": "trauma",
+  "anchor": "Fall 2025 (Non Consensus) row 71"
+ }
+}
