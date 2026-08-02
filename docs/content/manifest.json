@@ -1,18 +1,18 @@
 {
- "title": "Orthopaedic Board Review — High-Yield Study Guide",
- "subtitle": "Distilled by subspecialty from the Royal College recall bank + Ortho Review textbook",
+ "title": "Orthopaedic Board Exam · High-Yield Topics 2020–2025",
+ "note": "status: 'deep' = rebuilt into deep, heavily-referenced reviews; 'todo' = not yet built in this edition. 'q' is the 2020–2025 recall question count for that subspecialty (drives nav counts).",
  "subspecialties": [
-  { "key": "basic-science",  "title": "Basic Science",        "emoji": "🧬", "file": "basic-science.md",  "status": "todo" },
-  { "key": "anatomy",        "title": "Anatomy & Approaches",  "emoji": "🗺️", "file": "anatomy.md",        "status": "todo" },
-  { "key": "trauma",         "title": "Trauma",                "emoji": "🦴", "file": "trauma.md",         "status": "todo" },
-  { "key": "paediatrics",    "title": "Paediatrics",           "emoji": "🧒", "file": "paediatrics.md",    "status": "todo" },
-  { "key": "arthroplasty",   "title": "Adult Recon / Arthroplasty", "emoji": "🦵", "file": "arthroplasty.md", "status": "todo" },
-  { "key": "sports",         "title": "Sports",                "emoji": "🏃", "file": "sports.md",         "status": "todo" },
-  { "key": "shoulder",       "title": "Shoulder",              "emoji": "💪", "file": "shoulder.md",       "status": "todo" },
-  { "key": "elbow",          "title": "Elbow",                 "emoji": "🦾", "file": "elbow.md",          "status": "todo" },
-  { "key": "hand-and-wrist", "title": "Hand & Wrist",          "emoji": "✋", "file": "hand-and-wrist.md", "status": "todo" },
-  { "key": "foot-and-ankle", "title": "Foot & Ankle",          "emoji": "🦶", "file": "foot-and-ankle.md", "status": "done" },
-  { "key": "spine",          "title": "Spine",                 "emoji": "🔩", "file": "spine.md",          "status": "todo" },
-  { "key": "oncology",       "title": "Oncology",              "emoji": "🔬", "file": "oncology.md",       "status": "todo" }
+  { "key": "basic-science",        "title": "Basic Sci", "q": 184, "file": "basic-science.html",        "status": "todo",  "order": 1 },
+  { "key": "anatomy",              "title": "Anatomy",   "q": 49,  "file": "anatomy.html",              "status": "todo",  "order": 2 },
+  { "key": "oncology",             "title": "Oncology",  "q": 88,  "file": "oncology.html",             "status": "todo",  "order": 3 },
+  { "key": "hand-and-wrist",       "title": "Hand",      "q": 94,  "file": "hand-and-wrist.html",       "status": "todo",  "order": 4 },
+  { "key": "elbow",                "title": "Elbow",     "q": 59,  "file": "elbow.html",                "status": "todo",  "order": 5 },
+  { "key": "shoulder",             "title": "Shoulder",  "q": 85,  "file": "shoulder.html",             "status": "todo",  "order": 6 },
+  { "key": "foot-and-ankle",       "title": "Foot & Ankle", "q": 94, "file": "foot-and-ankle.html",    "status": "deep",  "order": 7 },
+  { "key": "lower-extremity-recon","title": "LE Recon",  "q": 76,  "file": "lower-extremity-recon.html","status": "todo",  "order": 8 },
+  { "key": "paediatrics",          "title": "Paeds",     "q": 233, "file": "paediatrics.html",          "status": "todo",  "order": 9 },
+  { "key": "spine",                "title": "Spine",     "q": 93,  "file": "spine.html",                "status": "todo",  "order": 10 },
+  { "key": "sports",               "title": "Sports",    "q": 42,  "file": "sports.html",               "status": "todo",  "order": 11 },
+  { "key": "trauma",               "title": "Trauma",    "q": 150, "file": "trauma.html",               "status": "todo",  "order": 12 }
  ]
 }

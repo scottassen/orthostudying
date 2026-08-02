@@ -7,25 +7,36 @@ facts — organized one page per subspecialty. **The exam questions themselves a
 never reproduced;** only the topics they test, with a lookup-able citation on
 every major fact.
 
+The site uses an **editorial, frequency-ranked** format: each topic is a card
+whose question count and color-coded left border show how heavily it was tested
+(2020–2025), with a "5+ only" high-yield filter, live search, collapsible
+references, and inline SVG figures. Each high-yield subtopic is written as its
+own small, heavily-referenced research synthesis.
+
 ## View it
 
-- **Interactive site:** the `docs/` folder is a self-contained single-page app
-  (subspecialty tabs, collapsible topics, and search across all built pages).
-  Once GitHub Pages is enabled (Settings → Pages → Deploy from a branch →
-  `/docs`), it is browsable online. Locally:
+- **Interactive site:** the `docs/` folder is a self-contained static site. Once
+  GitHub Pages is enabled (Settings → Pages → Deploy from a branch → `/docs`),
+  it is browsable online. Locally (must be served over HTTP — the shell fetches
+  content fragments):
   ```
   cd docs && python3 -m http.server
   # open http://localhost:8000
   ```
-- **Markdown (works right here on GitHub):** each subspecialty is a plain
-  markdown file under [`docs/content/`](docs/content/) — e.g. the completed
-  sample [`foot-and-ankle.md`](docs/content/foot-and-ankle.md).
+- **Per-subspecialty content on GitHub:** each subspecialty is an HTML fragment
+  under [`docs/sections/`](docs/sections/) — e.g. the deep sample
+  [`foot-and-ankle.html`](docs/sections/foot-and-ankle.html).
+- `Ortho_Board_Study_Guide_2020-2025.html` (repo root) is the original
+  single-file template this design is based on — a useful reference for the other
+  subspecialties' frequency data until each is rebuilt.
 
 ## Status
 
-Foot & Ankle is built as the complete sample/template. The remaining 11
-subspecialties are in progress — see **[ROADMAP.md](ROADMAP.md)** for the live
-status table and the exact per-subspecialty build recipe.
+**Foot & Ankle** is the first fully rebuilt section: its top 12 highest-yield
+topics are deep, multi-reference syntheses (with figures); the remaining lower-
+frequency F&A topics are carried over from the template. The other 11
+subspecialties are not yet rebuilt in this edition — see **[ROADMAP.md](ROADMAP.md)**
+for the status table and the per-subspecialty build recipe.
 
 ## How it's built
 
@@ -47,10 +58,11 @@ python3 scripts/classify_questions.py  # tag each question with a subspecialty
 ## Layout
 
 ```
-docs/                 # GitHub Pages site
-  index.html          #   single-page app
-  assets/             #   styles.css, app.js, md.js (vendored markdown renderer)
-  content/            #   one markdown file per subspecialty (+ _TEMPLATE.md, manifest.json)
+docs/                 # GitHub Pages site (editorial, frequency-ranked)
+  index.html          #   shell: masthead, nav, search, "5+ only", ranking strip
+  assets/             #   styles.css (from template), app.js (fragment loader)
+  content/manifest.json  # subspecialty list + build status + question counts
+  sections/           #   one HTML fragment per subspecialty (template card markup)
 data/                 # machine-readable converted sources (committed)
   questions*.json     #   normalized recall bank
   textbook/           #   textbook text chunked by subspecialty, citations preserved

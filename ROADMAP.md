@@ -21,57 +21,86 @@ tells us which topics are high-yield and how often they recur. Synthesis =
 map tested topics → subspecialty → pull the matching sourced textbook content →
 supplement gaps from the journal source list.
 
+## Site design (current edition)
+
+The site adopts the **editorial, frequency-ranked** design of
+`Ortho_Board_Study_Guide_2020-2025.html` (a single-file guide a web session
+generated from the same recall data), refactored into a **multi-file** site:
+
+- `docs/index.html` — shell: masthead, sticky nav, search (`#q`), "5+ only"
+  toggle (`#hy`), and the exam-wide "most heavily tested" ranking strip.
+- `docs/assets/styles.css` — the template's CSS **verbatim** (+ a small block
+  for dimmed unbuilt-nav items). Google-Fonts `<link>` loads in the user's
+  browser; system fonts are the fallback.
+- `docs/assets/app.js` — loads each fragment listed in `manifest.json`, injects
+  them, fills nav counts / section stats, and wires search + toggle + nav
+  highlighting.
+- `docs/content/manifest.json` — `[{key,title,q,file,status,order}]`;
+  `status:"deep"` = rebuilt, `"todo"` = not yet built (dimmed in nav).
+- `docs/sections/<key>.html` — one fragment per subspecialty = a
+  `<section class="sub-sec" id="<key>">` of `<article class="topic bN"
+  data-n data-search>` cards. **Band `bN` and `data-n` (question count) drive
+  the high-yield highlighting** the user cares about.
+
+The original single-file `Ortho_Board_Study_Guide_2020-2025.html` stays at the
+repo root — it holds the other 11 subspecialties' cards + frequency data and is
+the source to mine when rebuilding each.
+
 ## Status
 
 | Subspecialty | Key | Status |
 |---|---|---|
 | Basic Science | `basic-science` | ☐ todo |
-| Anatomy & Approaches | `anatomy` | ☐ todo (see note) |
-| Trauma | `trauma` | ☐ todo |
-| Paediatrics | `paediatrics` | ☐ todo |
-| Adult Recon / Arthroplasty | `arthroplasty` | ☐ todo |
-| Sports | `sports` | ☐ todo |
-| Shoulder | `shoulder` | ☐ todo |
-| Elbow | `elbow` | ☐ todo |
-| Hand & Wrist | `hand-and-wrist` | ☐ todo |
-| **Foot & Ankle** | `foot-and-ankle` | ✅ **done (sample/template)** |
-| Spine | `spine` | ☐ todo |
+| Anatomy | `anatomy` | ☐ todo (see note) |
 | Oncology | `oncology` | ☐ todo |
+| Hand & Wrist | `hand-and-wrist` | ☐ todo |
+| Elbow | `elbow` | ☐ todo |
+| Shoulder | `shoulder` | ☐ todo |
+| **Foot & Ankle** | `foot-and-ankle` | ◑ **top 12 deep; rest carried from template** |
+| Lower Extremity Recon | `lower-extremity-recon` | ☐ todo |
+| Paediatrics | `paediatrics` | ☐ todo |
+| Spine | `spine` | ☐ todo |
+| Sports | `sports` | ☐ todo |
+| Trauma | `trauma` | ☐ todo |
 
-Update this table and `docs/content/manifest.json` (`status: "done"`) when a
-subspecialty page is finished.
+Update this table and `docs/content/manifest.json` (`status:"deep"`) as sections
+are rebuilt.
 
 ## Per-subspecialty recipe (the procedure)
 
 For subspecialty `<key>`:
 
-1. **Pull tested topics.** From `data/questions_recent.json`, take rows where
-   `subspecialty == "<key>"` (recent = 2018–2025 + Controversial, which drives
-   prioritization). Cross-check `data/questions.json` for older recurrence.
-2. **Cluster into topics** and count the number of **distinct exam sittings**
-   each topic appears in. A topic tested in **≥10 sittings gets a ⭐** (high-yield).
-   (See `scripts/`-style clustering in the git history of the Foot & Ankle build;
-   a keyword-bucket script per subspecialty is the quickest way.)
-3. **Pull sourced facts** from `data/textbook/<key>.md`. **Follow the questions,
-   not just the section** — some tested topics live in a different textbook file
-   (e.g. foot/ankle **fractures** are in `data/textbook/trauma.md`; nerve
-   compressions may be in hand-and-wrist; spine oncology overlaps oncology).
-4. **Distil** each topic to the crucial points needed to answer the tested
-   questions. Keep the textbook's inline `[Journal ...]` citation on each fact
-   (render it as `[Source: ...]`).
-5. **Fill gaps** (topics tested but thin/absent in the textbook) from the journal
-   source list in the project brief / `README.md`; cite explicitly. Flag any
-   genuinely off-the-cuff fact.
-6. **Write** `docs/content/<key>.md` using `docs/content/_TEMPLATE.md`. Add the
-   `> Tested: <years>` line to every topic. **Never include verbatim question text.**
-7. **Flip status** to `done` in `docs/content/manifest.json` and this table.
-8. **Verify** (see below), commit, push.
+1. **Start from the template.** In `Ortho_Board_Study_Guide_2020-2025.html`, the
+   `<section id="<key>">` already has every topic as a card with its **band,
+   `data-n` (question count) and "X of 7 sittings"/year strings** — this is the
+   frequency/highlighting data. Reuse it verbatim as the skeleton.
+2. **Pick the deep set:** the ~10–15 highest-`data-n` topics. These get rebuilt;
+   lower-frequency cards are carried over from the template so the section stays
+   whole.
+3. **Synthesise each deep topic** into ~8–14 points (with `<b>` high-yield
+   highlights and `<ul class="sub">` sub-bullets) + **~8–12 references**, merging:
+   the template's points + sourced facts from `data/textbook/<key>.md` (and
+   `data/textbook/trauma.md` etc. — **follow the questions, not just the
+   section**; regional fractures live under trauma) + landmark and **Canadian**
+   evidence. Each subtopic is its own small research synthesis, not a translation.
+4. **Figures:** reuse the template's SVGs for that section (extract the
+   `<figure class="fig">…</figure>` blocks and inline them via a `<!--FIG:x-->`
+   placeholder + a small python assembler, as done for F&A). Add new SVGs only
+   if worthwhile — they are context-expensive.
+5. **Assemble** `docs/sections/<key>.html`: `<section>` header (hardcode
+   `sec-stats` or set `data-auto="1"` to let JS compute) + deep cards + verbatim
+   cards, ordered by `data-n` descending. **Never include verbatim question text.**
+6. **Flip status** to `deep` in `docs/content/manifest.json` and this table.
+7. **Verify** (below), commit, push.
 
-### Definition of done (per subspecialty page)
-- Every major bullet has a lookup-able `[Source: ...]`.
-- No verbatim exam question text anywhere (topics + facts only).
-- High-yield topics flagged with ⭐; each topic has a `> Tested:` year line.
-- Renders correctly in the site (tab loads, collapsibles open, search finds it).
+Context tip: keep big SVG/verbatim blocks out of your working context — stage
+them to scratch with a script and assemble on disk (see the F&A build).
+
+### Definition of done (per subspecialty section)
+- Deep topics have ~8–12 references each; every major point is defensible.
+- No verbatim exam question text anywhere (concepts + teaching points only).
+- Bands/`data-n` preserved from the template so highlighting + "5+ only" work.
+- Renders in the site (nav link active, cards/figures/refs show, search finds it).
 
 ## Data reference
 
@@ -130,16 +159,20 @@ end, subspecialty`.
   extracted PNG/JPG images with vision).
 - **The PDF outline is FLAT** — every entry reports `level 1`. Hierarchy is
   inferred from ALL-CAPS banners vs Title-Case topics (see `extract_textbook.py`).
-- Runtime **CDNs are blocked** by the agent proxy — the site vendors its own
-  tiny markdown renderer (`docs/assets/md.js`); do not add CDN `<script>` tags.
+- Runtime **CDNs are blocked by the agent proxy** in this environment. The site
+  uses no runtime JS CDNs; the only CDN reference is the Google-Fonts `<link>`,
+  which fails silently here but loads in the user's browser (system-font
+  fallbacks cover it). Do not rely on any CDN in the sandbox.
 
 ## The site
 
-- `docs/` is the GitHub Pages root (single-page app: tabs, collapsibles,
-  client-side search across built pages). Content is `docs/content/<key>.md`,
-  also directly viewable on GitHub for WIP.
+- `docs/` is the GitHub Pages root. `index.html` (shell) + `assets/app.js`
+  load per-subspecialty fragments from `docs/sections/*.html` listed in
+  `docs/content/manifest.json`. Fragments are directly viewable on GitHub.
 - To view locally: `cd docs && python3 -m http.server` then open
-  `http://localhost:8000` (it must be served over HTTP — `fetch` fails on `file://`).
+  `http://localhost:8000` (must be served over HTTP — `fetch` fails on `file://`).
+- Verify with headless Chromium: `require('/opt/node22/lib/node_modules/playwright')`,
+  `executablePath:'/opt/pw-browsers/chromium'` (see the F&A build for a script).
 - To enable Pages: repo **Settings → Pages → Source: Deploy from a branch →
-  Branch: `main` (or the working branch) / folder: `/docs`.** (This is a repo
-  setting a human must toggle once.)
+  Branch: `main` (or the working branch) / folder: `/docs`.** (A human toggles
+  this once.)
