@@ -50,7 +50,7 @@ the source to mine when rebuilding each.
 
 | Subspecialty | Key | Status |
 |---|---|---|
-| Basic Science | `basic-science` | ☐ todo |
+| **Basic Science** | `basic-science` | ✅ **55 cards; top 21 deep; all sub-bulleted** |
 | Anatomy | `anatomy` | ☐ todo (see note) |
 | Oncology | `oncology` | ☐ todo |
 | Hand & Wrist | `hand-and-wrist` | ☐ todo |

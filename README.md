@@ -32,12 +32,13 @@ own small, heavily-referenced research synthesis.
 
 ## Status
 
-**Foot & Ankle** (28 topics), **Trauma** (26) and **Paediatrics** (49) are
-rebuilt — 103 topic cards covering 477 of the 1,247 recalled questions (~38%).
-Their highest-yield topics (12, 14 and 20 respectively) are deep,
-multi-reference syntheses with figures, and every card uses the sub-bulleted
-house style. The remaining 9 subspecialties are not yet rebuilt in this edition — see **[ROADMAP.md](ROADMAP.md)**
-for the status table and the per-subspecialty build recipe.
+**Basic Science** (55 topics), **Foot & Ankle** (28), **Trauma** (26) and
+**Paediatrics** (49) are rebuilt — 158 topic cards covering 661 of the 1,247
+recalled questions (~53%). Their highest-yield topics (21, 12, 14 and 20
+respectively) are deep, multi-reference syntheses with figures, and every card
+uses the sub-bulleted house style. The remaining 8 subspecialties are not yet
+rebuilt in this edition — see **[ROADMAP.md](ROADMAP.md)** for the status table
+and the per-subspecialty build recipe.
 
 ## How it's built
 
