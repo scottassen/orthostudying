@@ -56,12 +56,12 @@ the source to mine when rebuilding each.
 | Hand & Wrist | `hand-and-wrist` | ☐ todo |
 | Elbow | `elbow` | ☐ todo |
 | Shoulder | `shoulder` | ☐ todo |
-| **Foot & Ankle** | `foot-and-ankle` | ◑ **top 12 deep; rest carried from template** |
+| **Foot & Ankle** | `foot-and-ankle` | ✅ **28 cards; top 12 deep; all sub-bulleted** |
 | Lower Extremity Recon | `lower-extremity-recon` | ☐ todo |
 | Paediatrics | `paediatrics` | ☐ todo |
 | Spine | `spine` | ☐ todo |
 | Sports | `sports` | ☐ todo |
-| Trauma | `trauma` | ☐ todo |
+| **Trauma** | `trauma` | ✅ **26 cards; top 14 deep; all sub-bulleted** |
 
 Update this table and `docs/content/manifest.json` (`status:"deep"`) as sections
 are rebuilt.
@@ -96,10 +96,27 @@ For subspecialty `<key>`:
 Context tip: keep big SVG/verbatim blocks out of your working context — stage
 them to scratch with a script and assemble on disk (see the F&A build).
 
+### House style: every card is sub-bulleted
+**All cards — deep AND carried-over — use the same shape:** each top-level
+`<li>` is a short **bold lead-in** naming the concept, followed by a nested
+`<ul class="sub">` that splits the facts one per bullet. Keep classifications
+and lists (Sanders I–IV, Hawkins, Wagner, Young-Burgess, Gustilo, Pauwels…) as
+clean one-item-per-line sub-lists. Preserve `<b>` high-yield highlights.
+The template's cards arrive as one dense line of prose — **they must be
+converted**, not pasted as-is.
+
+Context tip for the conversion: append the carried cards to the section file
+first, then replace each `<ul class="points">…` line **by line number with a
+small python script**. That keeps the long prose out of your working context
+and preserves headers, figures and `<details class="refs">` automatically.
+
 ### Definition of done (per subspecialty section)
 - Deep topics have ~8–12 references each; every major point is defensible.
 - No verbatim exam question text anywhere (concepts + teaching points only).
 - Bands/`data-n` preserved from the template so highlighting + "5+ only" work.
+- **Every card sub-bulleted per the house style above** (verify: card count ==
+  count of cards containing a `ul.sub`; zero `<ul class="points"><li>` remain).
+- Balanced tags (`<ul>`/`</ul>`, `<li>`/`</li>`) — check before committing.
 - Renders in the site (nav link active, cards/figures/refs show, search finds it).
 
 ## Data reference

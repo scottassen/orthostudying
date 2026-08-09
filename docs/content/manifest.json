@@ -13,6 +13,6 @@
   { "key": "paediatrics",          "title": "Paeds",     "q": 233, "file": "paediatrics.html",          "status": "todo",  "order": 9 },
   { "key": "spine",                "title": "Spine",     "q": 93,  "file": "spine.html",                "status": "todo",  "order": 10 },
   { "key": "sports",               "title": "Sports",    "q": 42,  "file": "sports.html",               "status": "todo",  "order": 11 },
-  { "key": "trauma",               "title": "Trauma",    "q": 150, "file": "trauma.html",               "status": "todo",  "order": 12 }
+  { "key": "trauma",               "title": "Trauma",    "q": 150, "file": "trauma.html",               "status": "deep",  "order": 12 }
  ]
 }

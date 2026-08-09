@@ -32,10 +32,10 @@ own small, heavily-referenced research synthesis.
 
 ## Status
 
-**Foot & Ankle** is the first fully rebuilt section: its top 12 highest-yield
-topics are deep, multi-reference syntheses (with figures); the remaining lower-
-frequency F&A topics are carried over from the template. The other 11
-subspecialties are not yet rebuilt in this edition — see **[ROADMAP.md](ROADMAP.md)**
+**Foot & Ankle** (28 topics) and **Trauma** (26 topics) are rebuilt: their
+highest-yield topics (12 and 14 respectively) are deep, multi-reference
+syntheses with figures, and every card uses the sub-bulleted house style. The
+remaining 10 subspecialties are not yet rebuilt in this edition — see **[ROADMAP.md](ROADMAP.md)**
 for the status table and the per-subspecialty build recipe.
 
 ## How it's built
