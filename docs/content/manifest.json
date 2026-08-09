@@ -10,7 +10,7 @@
   { "key": "shoulder",             "title": "Shoulder",  "q": 85,  "file": "shoulder.html",             "status": "todo",  "order": 6 },
   { "key": "foot-and-ankle",       "title": "Foot & Ankle", "q": 94, "file": "foot-and-ankle.html",    "status": "deep",  "order": 7 },
   { "key": "lower-extremity-recon","title": "LE Recon",  "q": 76,  "file": "lower-extremity-recon.html","status": "todo",  "order": 8 },
-  { "key": "paediatrics",          "title": "Paeds",     "q": 233, "file": "paediatrics.html",          "status": "todo",  "order": 9 },
+  { "key": "paediatrics",          "title": "Paeds",     "q": 233, "file": "paediatrics.html",          "status": "deep",  "order": 9 },
   { "key": "spine",                "title": "Spine",     "q": 93,  "file": "spine.html",                "status": "todo",  "order": 10 },
   { "key": "sports",               "title": "Sports",    "q": 42,  "file": "sports.html",               "status": "todo",  "order": 11 },
   { "key": "trauma",               "title": "Trauma",    "q": 150, "file": "trauma.html",               "status": "deep",  "order": 12 }
