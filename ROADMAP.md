@@ -53,7 +53,7 @@ the source to mine when rebuilding each.
 | **Basic Science** | `basic-science` | ✅ **55 cards; top 21 deep; all sub-bulleted** |
 | Anatomy | `anatomy` | ☐ todo (see note) |
 | Oncology | `oncology` | ☐ todo |
-| Hand & Wrist | `hand-and-wrist` | ☐ todo |
+| **Hand & Wrist** | `hand-and-wrist` | ✅ **24 cards; top 13 deep; all sub-bulleted** |
 | Elbow | `elbow` | ☐ todo |
 | Shoulder | `shoulder` | ☐ todo |
 | **Foot & Ankle** | `foot-and-ankle` | ✅ **28 cards; top 12 deep; all sub-bulleted** |
