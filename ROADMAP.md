@@ -43,8 +43,9 @@ generated from the same recall data), refactored into a **multi-file** site:
   the high-yield highlighting** the user cares about.
 
 The original single-file `Ortho_Board_Study_Guide_2020-2025.html` stays at the
-repo root — it holds the other 11 subspecialties' cards + frequency data and is
-the source to mine when rebuilding each.
+repo root as the provenance record for the per-topic frequency data (question
+counts, bands and sitting years). All 12 sections have now been mined from it;
+it remains the reference if a card's `data-n` or year strings need checking.
 
 ## Status
 
@@ -60,11 +61,18 @@ the source to mine when rebuilding each.
 | **Lower Extremity Recon** | `lower-extremity-recon` | ✅ **17 cards; top 10 deep; all sub-bulleted** |
 | **Paediatrics** | `paediatrics` | ✅ **49 cards; top 20 deep; all sub-bulleted** |
 | **Spine** | `spine` | ✅ **23 cards; top 12 deep; all sub-bulleted** |
-| Sports | `sports` | ☐ todo |
+| **Sports** | `sports` | ✅ **14 cards; all deep; all sub-bulleted** |
 | **Trauma** | `trauma` | ✅ **26 cards; top 14 deep; all sub-bulleted** |
 
-Update this table and `docs/content/manifest.json` (`status:"deep"`) as sections
-are rebuilt.
+**All 12 subspecialties are rebuilt** — 318 topic cards, 44 inline SVG figures,
+covering all 1,247 recalled questions from 2020–2025. Every card is
+sub-bulleted and carries its own reference list.
+
+Future work is deepening rather than building: the remaining "carried" cards
+(the lower-frequency cards in Foot & Ankle, Paediatrics, Basic Science,
+Oncology, Hand & Wrist, Shoulder, Spine and Trauma that still sit at ~4
+references) can be brought up to the 8–12 reference standard using the same
+per-card recipe below.
 
 ## Per-subspecialty recipe (the procedure)
 

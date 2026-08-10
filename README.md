@@ -27,21 +27,36 @@ own small, heavily-referenced research synthesis.
   under [`docs/sections/`](docs/sections/) — e.g. the deep sample
   [`foot-and-ankle.html`](docs/sections/foot-and-ankle.html).
 - `Ortho_Board_Study_Guide_2020-2025.html` (repo root) is the original
-  single-file template this design is based on — a useful reference for the other
-  subspecialties' frequency data until each is rebuilt.
+  single-file template this design is based on. It is kept as the provenance
+  record for the per-topic frequency data (question counts, bands and sitting
+  years) that drives the highlighting.
 
 ## Status
 
-**Basic Science** (55 topics), **Paediatrics** (49), **Foot & Ankle** (28),
-**Oncology** (27), **Trauma** (26), **Hand & Wrist** (24), **Spine** (23),
-**Shoulder** (21), **Anatomy** (18), **Lower Extremity Recon** (17) and
-**Elbow** (16) are rebuilt — 304 topic cards covering 1,205 of the 1,247
-recalled questions (~97%). Their highest-yield topics (21, 20, 12, 11, 14, 13,
-12, 12, all 18, 10 and 14 respectively) are deep, multi-reference syntheses
-with figures, and every card uses the sub-bulleted house style. **Sports** (42
-questions) is the one subspecialty not yet rebuilt in this edition — see
-**[ROADMAP.md](ROADMAP.md)** for the status table and the per-subspecialty
-build recipe.
+**All 12 subspecialties are rebuilt** — **318 topic cards** with **44 inline
+SVG figures**, covering all **1,247 recalled questions** from the 2020–2025
+sittings.
+
+| Subspecialty | Cards | Deep reviews |
+|---|---|---|
+| Basic Science | 55 | top 21 |
+| Paediatrics | 49 | top 20 |
+| Foot & Ankle | 28 | top 12 |
+| Oncology | 27 | top 11 |
+| Trauma | 26 | top 14 |
+| Hand & Wrist | 24 | top 13 |
+| Spine | 23 | top 12 |
+| Shoulder | 21 | top 12 |
+| Anatomy | 18 | all 18 |
+| Lower Extremity Recon | 17 | top 10 |
+| Elbow | 16 | top 14 |
+| Sports | 14 | all 14 |
+
+The deep reviews are multi-reference syntheses (typically 8–12 sources each)
+drawing on the attached textbook, the listed journals, and landmark and
+Canadian evidence. Every card uses the sub-bulleted house style and carries its
+own collapsible reference list. See **[ROADMAP.md](ROADMAP.md)** for the
+per-subspecialty build recipe and the remaining deepening work.
 
 ## How it's built
 
