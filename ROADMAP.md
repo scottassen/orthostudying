@@ -71,6 +71,21 @@ it remains the reference if a card's `data-n` or year strings need checking.
 covering all 1,247 recalled questions from 2020–2025. Every card is
 sub-bulleted and carries its own reference list.
 
+**Four reference appendices** (256 entries) are ported verbatim from
+`Ortho_Board_Study_Guide_2020-2025-2.html`, the later template revision that
+introduced them: `appendix-genetics` (83), `appendix-views` (52),
+`appendix-angles` (64) and `appendix-osteotomies` (57). They are
+`<section class="sub-sec appendix">` fragments holding one `table.ref-tbl`
+each — no `.topic` cards — so they carry `"kind": "appendix"` in the manifest.
+app.js groups their nav links behind an "Appendices" divider, filters their
+rows on search, and hides them under "5+ only" (a question-frequency filter
+that cannot apply to them).
+
+Note: that same template revision also has larger subspecialty sections than
+the first one (notably Paediatrics and Trauma). Its topic set is identical —
+318 cards, same keys — so only the appendices were taken; the rebuilt
+subspecialty sections in `docs/sections/` are unaffected.
+
 Future work is deepening rather than building: the remaining "carried" cards
 (the lower-frequency cards in Foot & Ankle, Paediatrics, Basic Science,
 Oncology, Hand & Wrist, Shoulder, Spine and Trauma that still sit at ~4

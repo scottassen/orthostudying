@@ -52,6 +52,19 @@ sittings.
 | Elbow | 16 | top 14 |
 | Sports | 14 | all 14 |
 
+Plus **four reference appendices** carried over from the template, **256 entries**
+in reference tables, grouped by region:
+
+| Appendix | Entries | Groups |
+|---|---|---|
+| A — Genetic conditions | 83 | 8 |
+| B — Radiographic views | 52 | 7 |
+| C — Angles & measurements | 64 | 6 |
+| D — Osteotomies | 57 | 7 |
+
+The site search covers the appendix rows as well as the topic cards, so a term
+like "Sprengel" or "Baumann angle" finds its table entry.
+
 The deep reviews are multi-reference syntheses (typically 8–12 sources each)
 drawing on the attached textbook, the listed journals, and landmark and
 Canadian evidence. Every card uses the sub-bulleted house style and carries its

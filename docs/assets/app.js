@@ -15,14 +15,23 @@
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
 
   function buildNav(man) {
-    var built = 0;
+    var built = 0, dividerDone = false;
     man.subspecialties.forEach(function (sp) {
       var isBuilt = sp.status && sp.status !== "todo";
-      if (isBuilt) built++;
+      var isApx = sp.kind === "appendix";
+      if (isBuilt && !isApx) built++;
+      if (isApx && !dividerDone) {
+        dividerDone = true;
+        var d = document.createElement("span");
+        d.className = "nav-div";
+        d.textContent = "Appendices";
+        navLinks.appendChild(d);
+      }
       var count = '<span class="nav-n">' + sp.q + "</span>";
       if (isBuilt) {
         var a = document.createElement("a");
         a.href = "#" + sp.key;
+        if (isApx) a.className = "is-apx";
         a.innerHTML = esc(sp.title) + count;
         navLinks.appendChild(a);
       } else {
@@ -47,7 +56,9 @@
   // Keep anchor jumps clear of the sticky nav, whatever height it ends up.
   function syncScrollPadding() {
     var nav = document.querySelector(".nav");
-    if (nav) document.documentElement.style.scrollPaddingTop = (nav.offsetHeight + 14) + "px";
+    if (!nav) return;
+    document.documentElement.style.scrollPaddingTop = (nav.offsetHeight + 14) + "px";
+    document.documentElement.style.setProperty("--nav-h", nav.offsetHeight + "px");
   }
 
   function loadFragments(man) {
@@ -88,7 +99,9 @@
     var q = document.getElementById("q"),
         hy = document.getElementById("hy"),
         cards = [].slice.call(document.querySelectorAll(".topic")),
-        secs = [].slice.call(document.querySelectorAll(".sub-sec")),
+        secs = [].slice.call(document.querySelectorAll(".sub-sec:not(.appendix)")),
+        apxSecs = [].slice.call(document.querySelectorAll(".sub-sec.appendix")),
+        apxRows = [].slice.call(document.querySelectorAll(".ref-tbl tbody tr")),
         nohits = document.getElementById("nohits"),
         method = document.getElementById("method"),
         methodLink = document.getElementById("method-link"),
@@ -107,6 +120,27 @@
       secs.forEach(function (s) {
         s.classList.toggle("hidden", !s.querySelector(".topic:not(.hidden)"));
       });
+
+      /* The appendices are reference tables, not topic cards. A search filters
+       * their rows (a group heading survives only if a row under it does);
+       * "5+ only" is a question-frequency filter and cannot apply, so they
+       * drop out entirely while it is on. */
+      var group = null, groupHit = false;
+      apxRows.forEach(function (tr) {
+        if (tr.classList.contains("grp")) {
+          if (group) group.classList.toggle("hidden", !groupHit);
+          group = tr; groupHit = false;
+          return;
+        }
+        var hit = !term || tr.textContent.toLowerCase().indexOf(term) > -1;
+        tr.classList.toggle("hidden", !hit);
+        if (hit) { groupHit = true; shown++; }
+      });
+      if (group) group.classList.toggle("hidden", !groupHit);
+      apxSecs.forEach(function (s) {
+        s.classList.toggle("hidden", onlyHY || !s.querySelector("tbody tr:not(.grp):not(.hidden)"));
+      });
+
       if (nohits) nohits.classList.toggle("hidden", shown > 0);
       // the methodology appendix is not a topic — hide it while filtering
       if (method) method.classList.toggle("hidden", !!term || onlyHY);
@@ -140,7 +174,7 @@
           }
         });
       }, { rootMargin: "-96px 0px -70% 0px" });
-      secs.forEach(function (s) { obs.observe(s); });
+      secs.concat(apxSecs).forEach(function (s) { obs.observe(s); });
     }
   }
 

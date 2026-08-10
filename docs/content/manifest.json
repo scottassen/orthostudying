@@ -13,6 +13,10 @@
   { "key": "paediatrics",          "title": "Paeds",     "q": 233, "file": "paediatrics.html",          "status": "deep",  "order": 9 },
   { "key": "spine",                "title": "Spine",     "q": 93,  "file": "spine.html",                "status": "deep",  "order": 10 },
   { "key": "sports",               "title": "Sports",    "q": 42,  "file": "sports.html",               "status": "deep",  "order": 11 },
-  { "key": "trauma",               "title": "Trauma",    "q": 150, "file": "trauma.html",               "status": "deep",  "order": 12 }
+  { "key": "trauma",               "title": "Trauma",    "q": 150, "file": "trauma.html",               "status": "deep",  "order": 12 },
+  { "key": "appendix-genetics",    "title": "Genetics",    "q": 83, "file": "appendix-genetics.html",    "status": "deep", "kind": "appendix", "order": 13 },
+  { "key": "appendix-views",       "title": "Views",       "q": 52, "file": "appendix-views.html",       "status": "deep", "kind": "appendix", "order": 14 },
+  { "key": "appendix-angles",      "title": "Angles",      "q": 64, "file": "appendix-angles.html",      "status": "deep", "kind": "appendix", "order": 15 },
+  { "key": "appendix-osteotomies", "title": "Osteotomies", "q": 57, "file": "appendix-osteotomies.html", "status": "deep", "kind": "appendix", "order": 16 }
  ]
 }

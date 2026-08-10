@@ -361,6 +361,8 @@ footer{padding:38px 0 60px;margin-top:34px;border-top:1px solid var(--line);font
   .mast{padding:38px 0 30px}
   .rank li{grid-template-columns:22px 44px 1fr;row-gap:0}
   .hr-s{display:none}
+  .ref-tbl{min-width:760px;font-size:13px}
+  .ref-tbl td{padding:10px} .ref-tbl th{padding:9px 10px}
 }
 @media print{
   .nav,.tools{display:none}
@@ -370,8 +372,53 @@ footer{padding:38px 0 60px;margin-top:34px;border-top:1px solid var(--line);font
   .refs[open] ul,.refs ul{display:block}
   .refs summary{color:#666}
   .sub-sec{break-before:page}
+  .ref-tbl th{position:static;background:#eee;color:#000;border-bottom:1.5px solid #000}
+  .ref-tbl{min-width:0;font-size:8.6pt}
+  .ref-tbl td{padding:5px 6px}
+  .tbl-wrap{overflow:visible;border:0}
+  .ref-tbl tr{break-inside:avoid}
+  .ref-tbl tr.grp td{background:#ddd}
+  .appendix{break-before:page}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* ---------- reference appendices ---------- */
+.appendix{padding-top:64px}
+.app-eyebrow{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--sig);font-weight:600;margin:0 0 6px}
+.app-lede{margin:14px 0 0;max-width:78ch;font-size:15px;line-height:1.55;color:var(--ink-2)}
+.app-lede b{color:var(--ink);font-weight:600}
+.tbl-wrap{margin-top:22px;background:var(--paper-2);border:1px solid var(--line);border-radius:2px;overflow-x:auto}
+table.ref-tbl{width:100%;border-collapse:collapse;font-size:14px;line-height:1.5;table-layout:fixed;min-width:900px}
+/* header sits under the sticky nav, whose height app.js measures into --nav-h */
+.ref-tbl th{background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:10px;
+  letter-spacing:.12em;text-transform:uppercase;font-weight:500;text-align:left;padding:11px 14px;vertical-align:middle}
+/* overflow-x:auto makes .tbl-wrap a scroll container in BOTH axes, so a sticky
+   <th> inside it pins to the wrap rather than to the viewport and floats
+   mid-table. Above 1040px the 900px-min table needs no horizontal scrolling, so
+   drop the scroll container there and let the header pin under the nav (whose
+   height app.js measures into --nav-h). Narrower than that, no sticky header. */
+@media(min-width:1040px){
+  .tbl-wrap{overflow:visible}
+  .ref-tbl th{position:sticky;top:var(--nav-h,94px);z-index:20}
+}
+.ref-tbl td{padding:13px 14px;vertical-align:top;border-top:1px solid var(--line)}
+.ref-tbl tbody tr:hover td{background:var(--paper)}
+.ref-tbl tr.grp td{background:var(--bone);color:var(--ink);font-family:var(--f-disp);font-weight:700;font-size:11.5px;
+  letter-spacing:.13em;text-transform:uppercase;padding:9px 14px;border-top:2px solid var(--ink)}
+.ref-tbl tr.grp:hover td{background:var(--bone)}
+.ref-tbl td:first-child{font-family:var(--f-disp);font-weight:600;font-size:14.5px;line-height:1.32;color:var(--ink)}
+.ref-tbl td b{font-weight:600;color:var(--ink);background:linear-gradient(transparent 62%,var(--sig-wash) 62%);
+  box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.ref-tbl td:first-child b{background:none}
+.ref-tbl td i{font-style:italic}
+.w-cond{width:15%} .w-gene{width:20%} .w-inh{width:14%} .w-feat{width:25%} .w-pearl{width:26%}
+.w-view{width:17%} .w-tech{width:26%} .w-shows{width:24%} .w-perf{width:33%}
+.w-norm{width:13%} .w-ost{width:17%} .w-ind{width:24%}
+/* nav grouping for the appendix links */
+.nav-div{align-self:center;flex:none;margin:0 6px;padding-left:10px;border-left:1px solid var(--line-2);font-family:var(--f-mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap}
+.nav a.is-apx{color:var(--teal)}
+.nav a.is-apx:hover{color:var(--teal)}
+.nav a.is-apx.on{color:var(--sig)}
 
 /* ---------- multi-file additions ---------- */
 .nav-todo{display:flex;align-items:baseline;gap:6px;padding:7px 10px;font-family:var(--f-disp);font-size:12.5px;font-weight:600;color:var(--ink-3);opacity:.5;white-space:nowrap;cursor:default}
