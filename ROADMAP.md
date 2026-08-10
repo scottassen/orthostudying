@@ -68,8 +68,34 @@ it remains the reference if a card's `data-n` or year strings need checking.
 | **Trauma** | `trauma` | ✅ **26 cards; top 14 deep; all sub-bulleted** |
 
 **All 12 subspecialties are rebuilt** — 318 topic cards, 44 inline SVG figures,
-covering all 1,247 recalled questions from 2020–2025. Every card is
-sub-bulleted and carries its own reference list.
+covering 1,717 recalled questions across ten sittings (2017 → Fall 2025). Every
+card is sub-bulleted and carries its own reference list.
+
+### Extending the sitting window
+
+The window was 2020–2025 (7 sittings, 1,247 questions) until 2019, 2018 and
+2017 were added. The recipe, if it is ever extended again:
+
+1. **The existing counts do not need re-deriving.** Every card carries its own
+   `<span class="m-yr">` per-year breakdown; parsing all 318 reconstructs the
+   total exactly. Preserve it and add the new years on top.
+2. **Do not classify with keywords.** A TF-IDF/keyword matcher was tested
+   against the known 2020 distribution and misfiled roughly half the stems
+   (183 total absolute error on 179 questions). `data-search` is only the title
+   plus the concept line, so there is no lexicon to reuse. The stems have to be
+   read and assigned by judgement.
+3. **Rescale the bands and the high-yield cutoff by the same factor** as the
+   sitting count, or the highlighting stops meaning "top tier". Going 7 → 10
+   moved the cutoff from 5× to 7× and the bands from 3/5/7/10 to 4/7/10/14 —
+   which kept the high-yield set at 103 cards, almost exactly its previous size.
+4. **Then update every aggregate**: `manifest.json` `q` values (they drive the
+   nav counts), the hero stats, the ranking strip, each section's `sec-stats`,
+   the bar chart and Source card in the `#method` appendix, and these docs.
+
+Caveat recorded in the appendix: 2017–2019 were classified separately from the
+pass that produced the 2020–2025 mapping, so borderline stems may fall
+differently either side of 2020. Nine 2017–2019 stems were too vague to assign
+to any topic and are excluded.
 
 **Four reference appendices** (256 entries) are ported verbatim from
 `Ortho_Board_Study_Guide_2020-2025-2.html`, the later template revision that

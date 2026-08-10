@@ -1,7 +1,7 @@
 /* Multi-file loader + interactions for the board-review site.
  * Loads per-subspecialty HTML fragments (template card markup) listed in
  * content/manifest.json, injects them, then wires the template's search,
- * "5+ only" toggle and IntersectionObserver nav highlighting over the
+ * "7+ only" toggle and IntersectionObserver nav highlighting over the
  * assembled DOM. Nav is built from the manifest so unbuilt sections show
  * dimmed and the whole thing updates as sections are added.
  */
@@ -86,12 +86,12 @@
       var q = 0, hi = 0;
       cards.forEach(function (c) {
         var n = +c.dataset.n || 0;
-        q += n; if (n >= 5) hi++;
+        q += n; if (n >= 7) hi++;
       });
       stats.innerHTML =
         "<span><b>" + q + "</b> questions</span>" +
         "<span><b>" + cards.length + "</b> topics</span>" +
-        "<span><b>" + hi + "</b> tested 5&#215; or more</span>";
+        "<span><b>" + hi + "</b> tested 7&#215; or more</span>";
     });
   }
 
@@ -112,7 +112,7 @@
       cards.forEach(function (c) {
         var hay = c.dataset.search || c.textContent.toLowerCase();
         var okT = !term || hay.indexOf(term) > -1;
-        var okN = !onlyHY || (+c.dataset.n) >= 5;
+        var okN = !onlyHY || (+c.dataset.n) >= 7;
         var ok = okT && okN;
         c.classList.toggle("hidden", !ok);
         if (ok) shown++;
@@ -123,7 +123,7 @@
 
       /* The appendices are reference tables, not topic cards. A search filters
        * their rows (a group heading survives only if a row under it does);
-       * "5+ only" is a question-frequency filter and cannot apply, so they
+       * "7+ only" is a question-frequency filter and cannot apply, so they
        * drop out entirely while it is on. */
       var group = null, groupHit = false;
       apxRows.forEach(function (tr) {
@@ -159,7 +159,7 @@
     if (hy) hy.addEventListener("click", function () {
       onlyHY = !onlyHY;
       hy.setAttribute("aria-pressed", onlyHY);
-      hy.textContent = onlyHY ? "All topics" : "5+ only";
+      hy.textContent = onlyHY ? "All topics" : "7+ only";
       apply();
     });
 

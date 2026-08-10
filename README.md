@@ -9,7 +9,7 @@ every major fact.
 
 The site uses an **editorial, frequency-ranked** format: each topic is a card
 whose question count and color-coded left border show how heavily it was tested
-(2020–2025), with a "5+ only" high-yield filter, live search, collapsible
+(2017–2025), with a "7+ only" high-yield filter, live search, collapsible
 references, and inline SVG figures. Each high-yield subtopic is written as its
 own small, heavily-referenced research synthesis.
 
@@ -34,23 +34,23 @@ own small, heavily-referenced research synthesis.
 ## Status
 
 **All 12 subspecialties are rebuilt** — **318 topic cards** with **44 inline
-SVG figures**, covering all **1,247 recalled questions** from the 2020–2025
-sittings.
+SVG figures**, covering **1,717 recalled questions** across **ten sittings**
+(2017 through Fall 2025).
 
-| Subspecialty | Cards | Deep reviews |
-|---|---|---|
-| Basic Science | 55 | top 21 |
-| Paediatrics | 49 | top 20 |
-| Foot & Ankle | 28 | top 12 |
-| Oncology | 27 | top 11 |
-| Trauma | 26 | top 14 |
-| Hand & Wrist | 24 | top 13 |
-| Spine | 23 | top 12 |
-| Shoulder | 21 | top 12 |
-| Anatomy | 18 | all 18 |
-| Lower Extremity Recon | 17 | top 10 |
-| Elbow | 16 | top 14 |
-| Sports | 14 | all 14 |
+| Subspecialty | Cards | Questions | Deep reviews |
+|---|---|---|---|
+| Basic Science | 55 | 236 | top 21 |
+| Paediatrics | 49 | 322 | top 20 |
+| Foot & Ankle | 28 | 134 | top 12 |
+| Oncology | 27 | 118 | top 11 |
+| Trauma | 26 | 196 | top 14 |
+| Hand & Wrist | 24 | 144 | top 13 |
+| Spine | 23 | 127 | top 12 |
+| Shoulder | 21 | 118 | top 12 |
+| Anatomy | 18 | 70 | all 18 |
+| Lower Extremity Recon | 17 | 109 | top 10 |
+| Elbow | 16 | 82 | top 14 |
+| Sports | 14 | 61 | all 14 |
 
 Plus **four reference appendices** carried over from the template, **256 entries**
 in reference tables, grouped by region:
@@ -77,7 +77,7 @@ Two source files (the `.xlsx` recall bank and the `.pdf` textbook) are converted
 into machine-readable data under [`data/`](data/), then distilled into the
 subspecialty pages. The textbook is already subspecialty-organized and carries
 inline journal citations, so it is the sourcing backbone; the question bank
-determines which topics are high-yield (⭐ = tested in ≥10 separate sittings).
+determines which topics are high-yield.
 
 Regenerate the converted data (idempotent):
 ```
