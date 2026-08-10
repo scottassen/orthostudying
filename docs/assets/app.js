@@ -76,6 +76,7 @@
         cards = [].slice.call(document.querySelectorAll(".topic")),
         secs = [].slice.call(document.querySelectorAll(".sub-sec")),
         nohits = document.getElementById("nohits"),
+        method = document.getElementById("method"),
         onlyHY = false;
 
     function apply() {
@@ -92,6 +93,8 @@
         s.classList.toggle("hidden", !s.querySelector(".topic:not(.hidden)"));
       });
       if (nohits) nohits.classList.toggle("hidden", shown > 0);
+      // the methodology appendix is not a topic — hide it while filtering
+      if (method) method.classList.toggle("hidden", !!term || onlyHY);
     }
     if (q) q.addEventListener("input", apply);
     if (hy) hy.addEventListener("click", function () {
