@@ -91,6 +91,7 @@
         secs = [].slice.call(document.querySelectorAll(".sub-sec")),
         nohits = document.getElementById("nohits"),
         method = document.getElementById("method"),
+        methodLink = document.getElementById("method-link"),
         onlyHY = false;
 
     function apply() {
@@ -109,7 +110,17 @@
       if (nohits) nohits.classList.toggle("hidden", shown > 0);
       // the methodology appendix is not a topic — hide it while filtering
       if (method) method.classList.toggle("hidden", !!term || onlyHY);
+      if (methodLink) methodLink.classList.toggle("hidden", !!term || onlyHY);
     }
+    // The page is ~445,000px tall; a smooth scroll to the appendix would
+    // take an age, so jump straight there.
+    if (methodLink && method) methodLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      var nav = document.querySelector(".nav");
+      var top = method.getBoundingClientRect().top + window.scrollY - ((nav ? nav.offsetHeight : 0) + 14);
+      window.scrollTo({ top: top, behavior: "auto" });
+    });
+
     if (q) q.addEventListener("input", apply);
     if (hy) hy.addEventListener("click", function () {
       onlyHY = !onlyHY;
