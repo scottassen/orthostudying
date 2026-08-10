@@ -55,7 +55,7 @@ the source to mine when rebuilding each.
 | **Oncology** | `oncology` | ✅ **27 cards; top 11 deep; all sub-bulleted** |
 | **Hand & Wrist** | `hand-and-wrist` | ✅ **24 cards; top 13 deep; all sub-bulleted** |
 | Elbow | `elbow` | ☐ todo |
-| Shoulder | `shoulder` | ☐ todo |
+| **Shoulder** | `shoulder` | ✅ **21 cards; top 12 deep; all sub-bulleted** |
 | **Foot & Ankle** | `foot-and-ankle` | ✅ **28 cards; top 12 deep; all sub-bulleted** |
 | Lower Extremity Recon | `lower-extremity-recon` | ☐ todo |
 | **Paediatrics** | `paediatrics` | ✅ **49 cards; top 20 deep; all sub-bulleted** |

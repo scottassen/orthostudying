@@ -33,13 +33,13 @@ own small, heavily-referenced research synthesis.
 ## Status
 
 **Basic Science** (55 topics), **Paediatrics** (49), **Foot & Ankle** (28),
-**Oncology** (27), **Trauma** (26), **Hand & Wrist** (24) and **Spine** (23)
-are rebuilt — 232 topic cards covering 936 of the 1,247 recalled questions
-(~75%). Their highest-yield topics (21, 20, 12, 11, 14, 13 and 12
-respectively) are deep, multi-reference syntheses with figures, and every card
-uses the sub-bulleted house style. The remaining 5 subspecialties are not yet
-rebuilt in this edition — see **[ROADMAP.md](ROADMAP.md)** for the status table
-and the per-subspecialty build recipe.
+**Oncology** (27), **Trauma** (26), **Hand & Wrist** (24), **Spine** (23) and
+**Shoulder** (21) are rebuilt — 253 topic cards covering 1,021 of the 1,247
+recalled questions (~82%). Their highest-yield topics (21, 20, 12, 11, 14, 13,
+12 and 12 respectively) are deep, multi-reference syntheses with figures, and
+every card uses the sub-bulleted house style. The remaining 4 subspecialties
+are not yet rebuilt in this edition — see **[ROADMAP.md](ROADMAP.md)** for the
+status table and the per-subspecialty build recipe.
 
 ## How it's built
 
