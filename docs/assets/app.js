@@ -34,6 +34,20 @@
       }
     });
     if (foBuilt) foBuilt.querySelector("b").textContent = built;
+    syncNavFade();
+  }
+
+  // The link strip carries a right-edge fade so a truncated row reads as
+  // scrollable. Drop it when everything already fits.
+  function syncNavFade() {
+    if (!navLinks) return;
+    navLinks.classList.toggle("no-fade", navLinks.scrollWidth <= navLinks.clientWidth + 2);
+  }
+
+  // Keep anchor jumps clear of the sticky nav, whatever height it ends up.
+  function syncScrollPadding() {
+    var nav = document.querySelector(".nav");
+    if (nav) document.documentElement.style.scrollPaddingTop = (nav.offsetHeight + 14) + "px";
   }
 
   function loadFragments(man) {
@@ -114,7 +128,7 @@
             });
           }
         });
-      }, { rootMargin: "-70px 0px -75% 0px" });
+      }, { rootMargin: "-96px 0px -70% 0px" });
       secs.forEach(function (s) { obs.observe(s); });
     }
   }
@@ -129,6 +143,12 @@
     .then(function () {
       fillSectionStats();
       wireInteractions();
+      syncScrollPadding();
+      syncNavFade();
+      window.addEventListener("resize", function () {
+        syncScrollPadding();
+        syncNavFade();
+      });
     })
     .catch(function () {
       sectionsEl.innerHTML =

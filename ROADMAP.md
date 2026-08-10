@@ -27,8 +27,11 @@ The site adopts the **editorial, frequency-ranked** design of
 `Ortho_Board_Study_Guide_2020-2025.html` (a single-file guide a web session
 generated from the same recall data), refactored into a **multi-file** site:
 
-- `docs/index.html` — shell: masthead, sticky nav, search (`#q`), "5+ only"
-  toggle (`#hy`), and the exam-wide "most heavily tested" ranking strip.
+- `docs/index.html` — shell: a sticky two-row nav at the very top (subspecialty
+  links on the first row, the `Filter` band with search `#q` and the "5+ only"
+  toggle `#hy` on the second), then the masthead with the exam-wide "most
+  heavily tested" ranking strip, then the sections and the "How this was built"
+  appendix (`#method`).
 - `docs/assets/styles.css` — the template's CSS **verbatim** (+ a small block
   for dimmed unbuilt-nav items). Google-Fonts `<link>` loads in the user's
   browser; system fonts are the fallback.
