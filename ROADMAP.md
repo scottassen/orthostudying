@@ -57,7 +57,7 @@ the source to mine when rebuilding each.
 | Elbow | `elbow` | ☐ todo |
 | **Shoulder** | `shoulder` | ✅ **21 cards; top 12 deep; all sub-bulleted** |
 | **Foot & Ankle** | `foot-and-ankle` | ✅ **28 cards; top 12 deep; all sub-bulleted** |
-| Lower Extremity Recon | `lower-extremity-recon` | ☐ todo |
+| **Lower Extremity Recon** | `lower-extremity-recon` | ✅ **17 cards; top 10 deep; all sub-bulleted** |
 | **Paediatrics** | `paediatrics` | ✅ **49 cards; top 20 deep; all sub-bulleted** |
 | **Spine** | `spine` | ✅ **23 cards; top 12 deep; all sub-bulleted** |
 | Sports | `sports` | ☐ todo |
