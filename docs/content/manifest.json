@@ -6,7 +6,7 @@
   { "key": "anatomy",              "title": "Anatomy",   "q": 49,  "file": "anatomy.html",              "status": "todo",  "order": 2 },
   { "key": "oncology",             "title": "Oncology",  "q": 88,  "file": "oncology.html",             "status": "deep",  "order": 3 },
   { "key": "hand-and-wrist",       "title": "Hand",      "q": 94,  "file": "hand-and-wrist.html",       "status": "deep",  "order": 4 },
-  { "key": "elbow",                "title": "Elbow",     "q": 59,  "file": "elbow.html",                "status": "todo",  "order": 5 },
+  { "key": "elbow",                "title": "Elbow",     "q": 59,  "file": "elbow.html",                "status": "deep",  "order": 5 },
   { "key": "shoulder",             "title": "Shoulder",  "q": 85,  "file": "shoulder.html",             "status": "deep",  "order": 6 },
   { "key": "foot-and-ankle",       "title": "Foot & Ankle", "q": 94, "file": "foot-and-ankle.html",    "status": "deep",  "order": 7 },
   { "key": "lower-extremity-recon","title": "LE Recon",  "q": 76,  "file": "lower-extremity-recon.html","status": "deep",  "order": 8 },
