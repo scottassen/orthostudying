@@ -51,7 +51,7 @@ the source to mine when rebuilding each.
 | Subspecialty | Key | Status |
 |---|---|---|
 | **Basic Science** | `basic-science` | ✅ **55 cards; top 21 deep; all sub-bulleted** |
-| Anatomy | `anatomy` | ☐ todo (see note) |
+| **Anatomy** | `anatomy` | ✅ **18 cards; all deep; all sub-bulleted** |
 | **Oncology** | `oncology` | ✅ **27 cards; top 11 deep; all sub-bulleted** |
 | **Hand & Wrist** | `hand-and-wrist` | ✅ **24 cards; top 13 deep; all sub-bulleted** |
 | **Elbow** | `elbow` | ✅ **16 cards; top 14 deep; all sub-bulleted** |
@@ -150,12 +150,13 @@ end, subspecialty`.
 
 ## Known gaps & notes
 
-- **No dedicated "anatomy" section in the textbook.** Anatomy/surgical approaches
-  are embedded across sections (esp. spine "Surgical Techniques", trauma
-  approaches, and Hoppenfeld-style internervous planes). Build `anatomy` by
-  harvesting approach/anatomy facts across `data/textbook/*.md` and the source
-  list (Hoppenfeld's *Surgical Exposures*), driven by the ~38 anatomy-classified
-  questions.
+- **No dedicated "anatomy" section in the textbook** — resolved. Anatomy and
+  surgical approaches are embedded across the other textbook sections, so the
+  `anatomy` fragment was sourced primarily from **Hoppenfeld, deBoer & Buckley's
+  *Surgical Exposures in Orthopaedics*** plus the primary anatomic literature
+  (Gautier/Ganz on the MFCA, Letournel, Seebacher, Blair & Botte, Lanz, Hettrich)
+  rather than from `data/textbook/*.md`. All 18 cards are deep as a result, and
+  the section carries 7–11 references per card.
 - **Oncology has very few inline textbook citations** (~7) — that section uses a
   different reference style. Expect to supplement heavily from Dahlin's *Bone
   Tumors*, Enneking principles, MSTS, and *J Surgical Oncology*.

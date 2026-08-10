@@ -3,7 +3,7 @@
  "note": "status: 'deep' = rebuilt into deep, heavily-referenced reviews; 'todo' = not yet built in this edition. 'q' is the 2020–2025 recall question count for that subspecialty (drives nav counts).",
  "subspecialties": [
   { "key": "basic-science",        "title": "Basic Sci", "q": 184, "file": "basic-science.html",        "status": "deep",  "order": 1 },
-  { "key": "anatomy",              "title": "Anatomy",   "q": 49,  "file": "anatomy.html",              "status": "todo",  "order": 2 },
+  { "key": "anatomy",              "title": "Anatomy",   "q": 49,  "file": "anatomy.html",              "status": "deep",  "order": 2 },
   { "key": "oncology",             "title": "Oncology",  "q": 88,  "file": "oncology.html",             "status": "deep",  "order": 3 },
   { "key": "hand-and-wrist",       "title": "Hand",      "q": 94,  "file": "hand-and-wrist.html",       "status": "deep",  "order": 4 },
   { "key": "elbow",                "title": "Elbow",     "q": 59,  "file": "elbow.html",                "status": "deep",  "order": 5 },
